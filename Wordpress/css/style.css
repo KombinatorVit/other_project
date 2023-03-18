@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Roboto ';
+    src: url('../fonts/Roboto-Black.ttf');
+    src: url('../fonts/Roboto-Black.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black.ttf') format('woff'),
+    url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 .container {
     margin: 0 auto;
     width: 1140px;
@@ -38,9 +48,9 @@ h1 {
 
 .title {
     color: #F9BF3B;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
+    font-family: 'Roboto Black', sans-serif;
     font-size: 41px;
     line-height: 41px;
     text-align: center;
@@ -315,3 +325,92 @@ h2.title {
 
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
 }
+
+.webinar {
+    min-height: 515px;
+    padding: 70px 0 51px;
+}
+
+.webinar .webinar_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 577px;
+    height: 433px;
+    margin: 0 auto;
+
+}
+
+.webinar .webinar_wrapper .webinar_img {
+
+    width: 342px;
+    height: 201px;
+
+}
+
+.webinar .webinar_wrapper .webinar_header {
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #252525
+}
+
+.webinar .webinar_wrapper .webinar_date {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+}
+
+.webinar .webinar_wrapper .webinar_text {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+
+    color: #4A4A4A;
+
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.info {
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+
