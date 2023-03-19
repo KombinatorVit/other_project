@@ -2,10 +2,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     position: relative;
     height: 50px;
 }
+
 nav {
     z-index: 5;
     position: fixed;
@@ -101,7 +102,7 @@ nav {
 .promo {
     min-height: 799px;
     background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
-padding: 150px 0 135px 0;
+    padding: 150px 0 135px 0;
 
 }
 
@@ -141,7 +142,7 @@ padding: 150px 0 135px 0;
 .promo .promo_btn {
     width: 259px;
     height: 63px;
-display: block;
+    display: block;
     margin: 118px auto 0 auto;
     background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
@@ -154,4 +155,67 @@ display: block;
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+    padding: 71px 0 65px 0;
+
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
