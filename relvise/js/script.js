@@ -1,4 +1,18 @@
 
+function customFilter(arr, callback){
+    let newArr = [];
+
+
+    for (let i = 0; i <arr.length ; i++) {
+        if(callback(arr[i])){
+            newArr.push(arr[i]);
+        }
+    }
+    return newArr;
+}
+
+console.log(customFilter([1, 2, 3, 4, 5], function (el) { return el % 2 === 0}));
+
 
 // Дан массив с числами. Числа могут быть положительными и отрицательными. Найдите сумму положительных элементов массива.
 //
