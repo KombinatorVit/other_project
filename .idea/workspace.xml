@@ -5,13 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new projects">
-      <change afterPath="$PROJECT_DIR$/fitness/images/icons/add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitness/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitness/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitness/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitness/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/cup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/hand-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/icons/right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/consultation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/pulsometr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/base/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_advantages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_promo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_titles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/fonts/Helvetica-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/fonts/Helvetica.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/fonts/helvetica-bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/fonts/helvetica.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber/src/scss/bootstrap-reboot.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-dom/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js-dom/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/.idea/js-dom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-dom/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse_step_1/src/sass/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/sass/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber/src/scss/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/sass/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse_step_1/src/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber/src/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/uber/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/uber/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +96,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/it/learn_verctka/fitness/images/icons",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/it/learn_verctka",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,9 +108,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fitness/images/icons" />
       <recent name="$PROJECT_DIR$/fitness/images" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/iphone/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,7 +137,8 @@
       <workItem from="1686558908831" duration="39000" />
       <workItem from="1686562716464" duration="1829000" />
       <workItem from="1686659109234" duration="2994000" />
-      <workItem from="1686844711311" duration="11932000" />
+      <workItem from="1686844711311" duration="21404000" />
+      <workItem from="1687026261480" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -117,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686844746923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add new projects">
+      <created>1687003535885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687003535885</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
