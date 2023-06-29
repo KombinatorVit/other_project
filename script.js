@@ -102,9 +102,15 @@
 //     yield 5;
 // }
 
-let num = 8
-
-while (num){
-    console.log(num);
-    num--;
+function first() {
+setTimeout(() => {
+    console.log('Hello')
+},2000)
 }
+
+function second() {
+    console.log('Bye')
+}
+
+first()
+second()

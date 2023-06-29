@@ -10,6 +10,19 @@
 <body>
 
 
+<script>
+
+    // Что минимальное забыли написать внутри функции removeWhitespaces, чтобы в консоли увидеть 'you_are_JS_developer' вместо undefined?
+    function removeWhitespaces(string) {
+   return     string.split(' ').filter(s => s !== ' ').join('_')
+    }
+
+    console.log(removeWhitespaces('you are JS developer'))
+</script>
+
+
+
+
 <script src="script.js"></script>
 </body>
 </html>
