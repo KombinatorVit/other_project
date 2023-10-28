@@ -1,116 +1,156 @@
-// 'use strict';
-//
-// let numberOfFilms;
-//
-// function start() {
-//     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '').trim();
-//
-//     while (numberOfFilms == null || numberOfFilms === '' || isNaN(numberOfFilms)) {
-//         numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '').trim();
-//     }
-//
-// }
-//
-// start();
-//
-// const personalMovieDB = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// }
-//
-//
-// function rememberMyFilms() {
-//     for (let i = 0; i < 2; i++) {
-//         const a = prompt('Один из последних просмотренных фильмов?', '').trim();
-//         const b = prompt('На сколько оцените его?', '').trim();
-//         if (a != null && b != null && a !== '' && b !== '' && a.length < 50) {
-//             personalMovieDB.movies[a] = b;
-//             console.log('done');
-//         } else {
-//             console.log('error');
-//             i--;
-//         }
-//     }
-// }
-//
-//
-// rememberMyFilms();
-//
-//
-// function detectPersonalLevel() {
-//     if (personalMovieDB.count < 10) {
-//         console.log('Просмотрено довольно мало фильмов');
-//     } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-//         console.log('Вы классический зритель');
-//     } else if (personalMovieDB.count >= 30) {
-//         console.log('Вы киноман');
-//     } else {
-//         console.log('Произошла ошибка');
-//     }
-//
-// }
-//
-// function showMyDB(hidden) {
-//     if (!hidden) {
-//         console.log(personalMovieDB);
-//     }
-// }
-//
-// showMyDB(personalMovieDB.privat);
-//
-// function writeYourGenres() {
-//     for (let i = 1; i <= 3; i++) {
-//         personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
-//     }
-// }
-//
-// writeYourGenres()
-//
-// detectPersonalLevel()
-//
-//
-//
-//
-// function getCoupeNumber(place) {
-//     if (isNaN(place) || place < 0 || !Number.isInteger(place)) {
-//         return 'Ошибка. Проверьте правильность введенного номера места';
-//     } else if (place === 0 || place > 36) {
-//         return 'Таких мест в вагоне не существует';
-//     } else {
-//         if (!Number.isInteger(place / 4)) {
-//             return Math.trunc(place / 4) + 1;
-//         } else {
-//             return place / 4;
-//         }
-//     }
-// }
-//
-// console.log(getCoupeNumber(22))
-// console.log(getCoupeNumber(-10)
-// )
-//
-//
-//
-// function* getArray() {
-//     yield 1;
-//     yield 2;
-//     yield 3;
-//     yield 4;
-//     yield 5;
-// }
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const restartButton = document.getElementById('restart-btn');
 
-function first() {
-setTimeout(() => {
-    console.log('Hello')
-},2000)
+// Установка размеров canvas
+canvas.width = 600;
+canvas.height = 400;
+
+// Позиция платформы
+let platformX = canvas.width / 2;
+
+// Скорость и направление движения платформы
+let platformSpeed = 8;
+let platformDirection = 0;
+
+// Позиции и радиусы шариков
+const balls = [
+    { x: 100, y: 50, radius: 20, speedY: 5 },
+    { x: 200, y: 100, radius: 15, speedY: 7 },
+    { x: 300, y: 150, radius: 10, speedY: 9 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+    { x: 400, y: 200, radius: 25, speedY: 4 },
+];
+
+let score = 0; // Очки игрока
+let isGameOver = false; // Флаг окончания игры
+
+// Обработка нажатия клавиш
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+        platformDirection = -1; // Движение влево
+    } else if (event.key === 'ArrowRight') {
+        platformDirection = 1; // Движение вправо
+    }
+});
+
+document.addEventListener('keyup', (event) => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        platformDirection = 0; // Остановка движения
+    }
+});
+
+// Основной игровой цикл
+function gameLoop() {
+    if (!isGameOver) {
+        // Очистка canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Рисование платформы
+        ctx.fillStyle = 'blue';
+        ctx.fillRect(platformX - 50, canvas.height - 20, 100, 10);
+
+        // Обновление позиции платформы
+        platformX += platformSpeed * platformDirection;
+
+        // Проверка границ canvas для платформы
+        if (platformX < 50) {
+            platformX = 50;
+        } else if (platformX > canvas.width - 50) {
+            platformX = canvas.width - 50;
+        }
+
+        // Рисование и обновление позиций шариков
+        ctx.fillStyle = 'red';
+        for (let ball of balls) {
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.fill();
+
+            ball.y += ball.speedY;
+
+            // Проверка столкновения шарика с платформой
+            if (
+                ball.y + ball.radius >= canvas.height - 20 &&
+                ball.x >= platformX - 50 &&
+                ball.x <= platformX + 50
+            ) {
+                ball.speedY = -ball.speedY; // Изменение направления шарика при столкновении
+                score++; // Увеличение очков при пойманном шарике
+            }
+
+            // Проверка столкновения шарика с нижней границей canvas
+            if (ball.y + ball.radius >= canvas.height) {
+                ball.y = -ball.radius; // Перемещение шарика вверх, если он достиг нижней границы
+            }
+        }
+
+        // Вывод очков и таймера
+        ctx.fillStyle = 'black';
+        ctx.font = '24px Arial';
+        ctx.fillText('Score: ' + score, 10, 30);
+        ctx.fillText('Time: ' + Math.floor(Date.now() / 1000), 10, 60);
+
+        // Проверка окончания игры (например, после достижения определенного количества очков)
+        if (score >= 10) {
+            gameOver();
+        }
+
+        requestAnimationFrame(gameLoop);
+    }
 }
 
-function second() {
-    console.log('Bye')
+// Функция окончания игры
+function gameOver() {
+    isGameOver = true;
+
+    // Отображение кнопки рестарта
+    restartButton.style.display = 'block';
+
+    // Вывод сообщения о завершении игры
+    ctx.fillStyle = 'black';
+    ctx.font = '36px Arial';
+    ctx.fillText('Game Over', canvas.width / 2 - 100, canvas.height / 2 - 20);
 }
 
-first()
-second()
+// Функция перезапуска игры
+function restartGame() {
+    score = 0;
+    isGameOver = false;
+    restartButton.style.display = 'none';
+    platformX = canvas.width / 2;
+    gameLoop();
+}
+
+restartButton.addEventListener('click', restartGame);
+
+gameLoop();

@@ -1,28 +1,24 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Catch the Balls</title>
+    <style>
+        #canvas-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-
-
-<script>
-
-    // Что минимальное забыли написать внутри функции removeWhitespaces, чтобы в консоли увидеть 'you_are_JS_developer' вместо undefined?
-    function removeWhitespaces(string) {
-   return     string.split(' ').filter(s => s !== ' ').join('_')
-    }
-
-    console.log(removeWhitespaces('you are JS developer'))
-</script>
-
-
-
-
+<div id="canvas-container">
+    <canvas id="canvas"></canvas>
+</div>
+<button id="restart-btn" style="display: none;">Restart</button>
 <script src="script.js"></script>
 </body>
 </html>
