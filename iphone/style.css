@@ -271,6 +271,7 @@ ul {
     .new-img {
         display: none;
     }
+
     .new-text p {
         max-width: 100%;
     }
@@ -280,6 +281,11 @@ ul {
 @media (max-width: 560px) {
     .title {
         font-size: 32px;
+        line-height: 42px;
+    }
+
+    .new-title, .color_title {
+        font-size: 34px;
         line-height: 42px;
     }
 
