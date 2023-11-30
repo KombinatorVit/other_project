@@ -4,11 +4,138 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new projects">
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update block">
+      <change afterPath="$PROJECT_DIR$/Miro/PurpleForm/images/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Miro/PurpleForm/images/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Miro/PurpleForm/images/topic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Miro/PurpleForm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Miro/PurpleForm/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/fonts/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/Group 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/Group 1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/images/logos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/images/logos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Miro/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/benefits/bench.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/benefits/bench.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/benefits/bicycle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/benefits/bicycle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/benefits/building.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/benefits/building.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/benefits/fountain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/benefits/fountain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/cards/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/cards/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/cards/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/cards/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/cards/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/cards/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/cards/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/cards/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/cta/cta-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/cta/cta-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/header/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/header/header-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/header/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/header/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/header/mouse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/header/mouse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/header/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/header/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/map/cross.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/map/cross.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/map/location-pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/map/location-pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/socials/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/socials/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/socials/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/socials/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/socials/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/socials/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/socials/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/socials/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/video/play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/video/play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /img/video/video-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/img/video/video-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /libs/phoneMask/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/libs/phoneMask/mask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /libs/phoneMask/mask_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/libs/phoneMask/mask_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /libs/youtubeLightbox/youtubeLightbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/libs/youtubeLightbox/youtubeLightbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /libs/youtubeLightbox/youtubeLightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/libs/youtubeLightbox/youtubeLightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/base/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/base/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/base/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_apartments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_apartments.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_feedback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_nav-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_nav-icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_section-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_section-map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/blocks/_yandex-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/blocks/_yandex-map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse - html /scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-300.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-500.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-500.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-500.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-700.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/fonts/MuseoSansCyrl-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/fonts/MuseoSansCyrl-700.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/cup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/advantages/cup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/advantages/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/advantages/shoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/advantages/shoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/hand-cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/main_screen/hand-cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/messages.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/main_screen/messages.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/main_screen/timer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/main_screen/timer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/pinterest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/pinterest.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/icons/right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/icons/right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/consultation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/consultation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/feed_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/feed_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/feed_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/feed_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/pulsometr.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/pulsometr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/slide_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/slide_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/img/slide_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/img/slide_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/base/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/base/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_promo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/blocks/_titles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_titles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse_step_1/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uber/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uber/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/header/hero-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/header/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/icons/nav-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/icons/nav-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/portfolio/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/portfolio/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/portfolio/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/services/01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/01.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/services/02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/02.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/services/03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/03.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/socials/Behance.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Behance.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/socials/Dribble.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Dribble.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/socials/Instargam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Instargam.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/img/socials/LinkedIn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/LinkedIn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin - ready/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/freelancer-cv-kelvin/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +176,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Miro" />
       <recent name="$PROJECT_DIR$/wordpress" />
       <recent name="$PROJECT_DIR$/tea_maket/images" />
       <recent name="$PROJECT_DIR$/fitness/images/icons" />
-      <recent name="$PROJECT_DIR$/fitness/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tea_maket" />
@@ -95,7 +222,9 @@
       <workItem from="1700568624640" duration="1240000" />
       <workItem from="1700644818236" duration="588000" />
       <workItem from="1700657214218" duration="15955000" />
-      <workItem from="1701029594091" duration="607000" />
+      <workItem from="1701029594091" duration="4498000" />
+      <workItem from="1701164401596" duration="5529000" />
+      <workItem from="1701271605547" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -181,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700933932421</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update block">
+      <created>1701032734915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701032734915</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +338,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update + news project" />
     <MESSAGE value="add new projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new projects" />
+    <MESSAGE value="update block" />
+    <option name="LAST_COMMIT_MESSAGE" value="update block" />
   </component>
 </project>
