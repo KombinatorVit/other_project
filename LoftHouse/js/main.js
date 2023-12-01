@@ -1,4 +1,3 @@
-/* Nav icon */
 const navBtn = document.querySelector('.nav-icon-btn');
 const navIcon = document.querySelector('.nav-icon');
 const nav = document.querySelector('.header__top-row');
@@ -12,7 +11,6 @@ navBtn.onclick = function () {
 /* Phone Mask */
 mask('[data-tel-input]');
 
-// Удаляем '+' если больше ничего не введено, чтобы показать placeholder
 const phoneInputs = document.querySelectorAll('[data-tel-input]');
 phoneInputs.forEach((input)=>{
 	input.addEventListener('input', ()=>{

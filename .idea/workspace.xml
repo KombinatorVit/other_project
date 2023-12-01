@@ -4,12 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update block">
-      <change afterPath="$PROJECT_DIR$/iphone/js/main.js" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="iphone finish">
+      <change afterPath="$PROJECT_DIR$/bakery/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/Dosis-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Dosis/static/Dosis-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/fonts/Roboto_Condensed/static/RobotoCondensed-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/vars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/vars.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/scss/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/_1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/info.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/iphone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoftHouse/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoftHouse/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse/src/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeMe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iphone/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/iphone/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relvise/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/relvise/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,35 +95,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vitalijonisenko/Desktop/slon/learn_verctka&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/di-gi/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/di-gi/fonts" />
+      <recent name="$PROJECT_DIR$/di-gi/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Miro" />
       <recent name="$PROJECT_DIR$/wordpress" />
-      <recent name="$PROJECT_DIR$/tea_maket/images" />
-      <recent name="$PROJECT_DIR$/fitness/images/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tea_maket" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Pulse/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +181,7 @@
       <workItem from="1701029594091" duration="4498000" />
       <workItem from="1701164401596" duration="5529000" />
       <workItem from="1701271605547" duration="1764000" />
-      <workItem from="1701336038269" duration="12834000" />
+      <workItem from="1701336038269" duration="33325000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -199,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701336106219</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="iphone finish">
+      <created>1701352055184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701352055184</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +310,7 @@
     <MESSAGE value="update + news project" />
     <MESSAGE value="add new projects" />
     <MESSAGE value="update block" />
-    <option name="LAST_COMMIT_MESSAGE" value="update block" />
+    <MESSAGE value="iphone finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="iphone finish" />
   </component>
 </project>
