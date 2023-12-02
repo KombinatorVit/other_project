@@ -1,0 +1,151 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+html {
+    font-size: 16px; /* по умолчанию */
+
+
+}
+
+body {
+    box-sizing: border-box;
+
+
+}
+
+.wrapper {
+max-width: 1000px;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* ------------------------------ */
+
+
+.myTestClass {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    text-indent: 50px;
+
+    text-shadow: 1px 1px 10px #000;
+    max-width: 500px;
+    min-width: 500px;
+    color: rgba(11, 2, 11, 0.2);
+}
+
+.blok {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: #4ce2ff;
+}
+
+.blok > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 10px #000;
+    width: 70%; /* Подберите подходящую ширину текста */
+}
+
+.blok {
+    background-color: red;
+    border-radius: 50%;
+    text-align: justify;
+}
+
+.p{
+    opacity: 0.5;
+    text-align: right;
+    overflow: hidden;
+}
+span{
+    opacity: 0.5;
+    text-align: right;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid #000;
+}
+
+
+.blok__border {
+    width: 300px;
+    height: 300px;
+    background-color: #4ce2ff;
+    border-bottom: 2px solid #000;
+    border-right: 3px deepskyblue dashed;
+    border-top: 10px solid #000;
+    border-left: 10px solid #000;
+    box-shadow:  inset 10px 20px 10px #000;
+}
+
+.link {
+    color: darkblue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+
+
+}
