@@ -28,6 +28,7 @@ body {
     line-height: 1.5;
     font-weight: 300;
     /*font-family: 'Cormorant', serif;*/
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,6 +47,9 @@ body {
     display: flex;
     align-items: center;
     gap: 0 65px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 85px;
 
 }
 
@@ -63,4 +67,43 @@ body {
 
 .logo {
     margin-bottom: 35px;
+}
+
+.top {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.1%, #000 97.4%), url("../images/bg1.jpg") no-repeat bottom center/cover;
+}
+
+.top__inner {
+    padding: 254px 0 48px 200px;
+    color: #FFF;
+    font-family: 'Cormorant', serif;
+
+}
+
+.top_title {
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+    max-width: 789px;
+    margin-bottom: 20px;
+}
+
+.top__text {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 558px;
+
+}
+
+.blockquote {
+}
+
+.blockquote__text {
+    text-align: center;
+
+
 }
