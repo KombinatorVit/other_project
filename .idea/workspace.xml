@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="start new projects">
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/base/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/BG Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/Gears.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/button-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/email_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/place_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/smartphone_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/timer_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/BG Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/Gears.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/button-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/email_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/place_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/smartphone_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/timer_24px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/img/mark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/bg1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/2/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-freelance/_1/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/_1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/_1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tea_maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tea_maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +116,7 @@
       <workItem from="1701029594091" duration="4498000" />
       <workItem from="1701164401596" duration="5529000" />
       <workItem from="1701271605547" duration="1764000" />
-      <workItem from="1701336038269" duration="92277000" />
+      <workItem from="1701336038269" duration="97830000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -267,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701540132611</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="start new projects">
+      <created>1701719799924</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701719799924</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
