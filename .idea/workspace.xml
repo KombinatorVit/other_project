@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add auto project">
-      <change afterPath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/Overline Mark.svg" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/auto/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-freelance/_1/2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/2/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/2/img/icons/icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project-freelance/_1/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/BG Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/Gears.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/button-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/email_24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/place_24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/smartphone_24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/icons/timer_24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/img/mark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/fonts/Gilroy-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/fonts/Gilroy-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/fonts/Gilroy-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/fonts/Gilroy-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/img/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/_1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +119,7 @@
       <workItem from="1701164401596" duration="5529000" />
       <workItem from="1701271605547" duration="1764000" />
       <workItem from="1701336038269" duration="99052000" />
-      <workItem from="1703015734039" duration="12731000" />
+      <workItem from="1703015734039" duration="26440000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -281,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703016262303</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update project">
+      <created>1703092587055</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703092587056</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +294,7 @@
     <MESSAGE value="start new projects" />
     <MESSAGE value="update" />
     <MESSAGE value="add auto project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add auto project" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
 </project>
