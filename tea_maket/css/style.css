@@ -100,10 +100,51 @@ body {
 }
 
 .blockquote {
+    padding: 150px 0;
+
 }
 
 .blockquote__text {
+    max-width: 704px;
     text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    font-family: 'Cormorant', serif;
+}
 
 
+@media (max-width: 1000px) {
+
+    .header__inner{
+        min-height: auto;
+    }
+
+    .user-actions__item-search {
+        margin-left: 30px;
+    }
+
+    .menu{
+        margin-right: auto;
+    }
+    .menu__list {
+        margin-left: 60px;
+    }
+    .logo{
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 360px) {
 }
