@@ -26,6 +26,7 @@ button {
     margin: 0 auto;
     padding-right: 20px;
     padding-left: 20px;
+
 }
 
 body {
@@ -211,6 +212,39 @@ body {
 }
 
 
+.reviews__title {
+    margin-bottom: 60px;
+}
+
+.reviews__list {
+    display: flex;
+    gap: 0 26px;
+    justify-content: center;
+
+}
+
+.reviews__item {
+    flex: 0 1 280px;
+}
+
+.reviews__text {
+    color:  #151618;
+
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.reviews__name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+}
+
 /*media*/
 
 
@@ -233,6 +267,11 @@ body {
 }
 
 @media (max-width: 1000px) {
+    .reviews__item-hide{
+        display: none;
+    }
+
+
     .top {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.1%, #000 97.4%), url("../images/bg1.jpg") no-repeat left center/cover;
     }
@@ -272,6 +311,18 @@ body {
 }
 
 @media (max-width: 768px) {
+    .reviews__list {
+        flex-wrap: wrap;
+        gap: 30px 76px;
+    }
+
+    .reviews__item {
+        flex: 0 1 280px;
+    }
+    .reviews__item-hide{
+        display: block;
+    }
+
     .mobile-nav, .menu__close {
         display: block;
     }
@@ -389,20 +440,32 @@ body {
     }
 }
 
+
+@media (max-width: 680px) {
+    .reviews__list {
+        gap: 10px 20px;
+    }
+
+
+}
+
 @media (max-width: 660px) {
     .container {
         padding-left: 10px;
         padding-right: 10px;
     }
-
+    .reviews__item {
+        flex: 0 1 220px;
+    }
     .blockquote {
         padding: 60px 54px 60px 50px;
     }
 }
 
 @media (max-width: 590px) {
+
     .menu__list {
-        width: 360px;
+       width: 360px;
     }
 
     .logo {
@@ -426,6 +489,13 @@ body {
 }
 
 @media (max-width: 480px) {
+.reviews{
+    padding: 50px 0;
+}
+
+    .reviews__title{
+        margin-bottom: 50px;
+    }
     .logo {
         margin-right: 80px;
     }
@@ -448,12 +518,20 @@ body {
 
 }
 
+@media(max-width: 479px) {
+    .reviews__item{
+        flex: 0 1 100%;
+    }
+
+}
+
 
 @media (max-width: 435px) {
     .assortment__item {
         max-width: 170px;
 
     }
+
 
     .title {
         font-size: 24px;
@@ -467,7 +545,12 @@ body {
 }
 
 @media (max-width: 360px) {
-
+    .menu {
+        margin-right: 0;
+    }
+    .menu__list {
+        width: 100%;
+    }
     .assortment {
         padding-bottom: 80px;
     }
