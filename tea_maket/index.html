@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="menu--close "></div>
 <header class="header">
     <div class="container">
         <div class="header__inner">
@@ -20,12 +21,42 @@
                 <img src="images/logo.svg" alt="TealuxE">
             </a>
             <nav class="menu">
+
+                <button class="menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
                 <ul class="menu__list">
+                    <li class="menu__close">
+                        <button class="menu__close-btn"><img src="images/icon.svg" alt="close icon"></button>
+                    </li>
                     <li class="menu__item"><a href="#" class="menu__link">Black</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Green</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">White</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Oolong</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Pu-erh</a></li>
+                    <li class="mobile-nav">
+                        <ul class="mobile-menu">
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact Us</a></li>
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Our Blog</a></li>
+                            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Shipping and
+                                Delivery</a></li>
+
+                        </ul>
+                        <ul class="mobile-actions">
+                            <li class="mobile-actions__item"><a href="#" class="user-actions__link"> <img
+                                    src="images/cart.svg"
+                                    alt="cart"></a></li>
+                            <li class="mobile-actions__item"><a href="#" class="user-actions__link"><img
+                                    src="images/user.svg"
+                                    alt="user"></a></li>
+                            <li class="mobile-actions__item "><a href="#" class="user-actions__link"><img
+                                    src="images/search.svg" alt="search"></a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <ul class="user-actions">
@@ -61,9 +92,41 @@
             ones."
         </p>
     </blockquote>
+    <section class="assortment">
+        <div class="container">
+            <h2 class="title assortment__title">Explore our Collections</h2>
+            <ul class="assortment__list">
+                <li class="assortment__item"><img src="images/black.png" alt="Black" class="assortment__img">
+                    <h3 class="assortment__name">Black</h3>
+                </li>
+                <li class="assortment__item"><img src="images/green.png" alt="Green" class="assortment__img">
+                    <h3 class="assortment__name">Green</h3>
+                </li>
+                <li class="assortment__item"><img src="images/white.png" alt="White" class="assortment__img">
+                    <h3 class="assortment__name">White</h3>
+                </li>
+                <li class="assortment__item"><img src="images/ooland.png" alt="Oolong" class="assortment__img">
+                    <h3 class="assortment__name">Oolong</h3>
+                </li>
+                <li class="assortment__item"><img src="images/pu_erl.png" alt="Pu-erh" class="assortment__img">
+                    <h3 class="assortment__name">Pu-erh</h3>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+    <section class="reviews">
+        <h2 class="title reviews__title ">What our Clients say</h2>
+        <ul class="reviews__list">
+
+
+        </ul>
+    </section>
 
 </main>
 
-<script src="js/main.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
