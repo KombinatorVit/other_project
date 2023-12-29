@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "normalize";
+@import "modal";
+@import "flexbox";
+@import "helpclass";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  .df;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+  .fc;
+}
+
+header {
+  background: #fff;
+
+  .line1 {
+    padding: 12px 0 11px;
+    border-bottom: 1px solid rgba(85, 166, 48, 0.5);
+
+    .block {
+      .df;
+      .vc;
+      .logo {
+        .df;
+        .vc;
+        img {
+          width: 61px;
+          height: 61px;
+        }
+        span {
+          color: #1c1e23;
+          font-size: 11px;
+          margin-left: 11px;
+        }
+      }
+      .tel {
+        .df;
+        .vc;
+        margin-left: auto;
+        &:before {
+          content: url("../img//phone.svg");
+          margin-right: 22px;
+          position: relative;
+          top: 3px;
+        }
+        color: #424242;
+
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .soc {
+        .df;
+        .vc;
+        margin: 0 66px 0 79px;
+        a {
+          &:not(:last-child) {
+            margin-right: 26px;
+          }
+        }
+      }
+      .lang {
+        .current-lang {
+          .df;
+          .vc;
+          .yes {
+            margin-left: 14px;
+          }
+        }
+      }
+    }
+  }
+  .line2 {
+    nav {
+      ul {
+        .df;
+        .jb;
+        .vc;
+        padding: 22px 0;
+        li {
+          a {
+            color: #424242;
+
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+  footer {
+  margin-top: auto;
+}
+
+.sec1 {
+  background: #ECFFEB;
+
+  // min-height:  584px;
+  ;
+
+  .block {
+    padding: 71px 0 138px;
+  position: relative;
+    .text-block {
+      .t1 {
+        color: #424242;
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+      }
+      .t2 {
+        color: #55a630;
+
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 65px;
+        max-width:  496px;
+        margin-top: 7px;
+        position: relative;
+        left: -5px;
+      }
+      .t3 {
+        color: #424242;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        margin: 20px 0 57px;
+        max-width: 419px;
+      }
+      .t4 {
+        .df;
+        .btn {
+          height: 66px;
+          width: 285px;
+
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 26px;
+          .dfc;
+          &.bg-transparent {
+            border: 1px solid #55a630;
+            background: transparent;
+            color: #55A630;
+            position: relative;
+            z-index: 2;
+          }
+          &.bg-green {
+            background: #55a630;
+            color: #fff;
+            margin-right: 20px;
+
+          
+          }
+        }
+      }
+    }
+  }
+  img{
+    position: absolute;
+    bottom: 0;
+    right: -24px;
+  }
+}
+
+@import "adaptive";
