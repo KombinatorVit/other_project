@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="upgrade valmari project">
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="tea maket fixed and new sections">
+      <change afterPath="$PROJECT_DIR$/bakery/src/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Иконка.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Картинка-фона.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/02-Иконка.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/03-Иконка.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise4.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakery/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakery/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tea_maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tea_maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/index.html" afterDir="false" />
     </list>
@@ -38,7 +55,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/bakery/src/css",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,11 +67,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bakery/src/css" />
+      <recent name="$PROJECT_DIR$/bakery/src/icons" />
       <recent name="$PROJECT_DIR$/tea_maket/images" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/project-freelance/_1/2/img/icons" />
-      <recent name="$PROJECT_DIR$/project-freelance/_1/2/img" />
-      <recent name="$PROJECT_DIR$/project-freelance/_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/di-gi/fonts" />
@@ -122,7 +139,7 @@
       <workItem from="1703015734039" duration="26450000" />
       <workItem from="1703424482356" duration="56441000" />
       <workItem from="1703875996997" duration="193000" />
-      <workItem from="1703878946105" duration="4814000" />
+      <workItem from="1703878946105" duration="13335000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -313,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703879084246</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="tea maket fixed and new sections">
+      <created>1703884175215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703884175215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +367,7 @@
     <MESSAGE value="update project and add Fitness project" />
     <MESSAGE value="update project and worked tea project" />
     <MESSAGE value="upgrade valmari project" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade valmari project" />
+    <MESSAGE value="tea maket fixed and new sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="tea maket fixed and new sections" />
   </component>
 </project>

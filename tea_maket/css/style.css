@@ -228,7 +228,7 @@ body {
 }
 
 .reviews__text {
-    color:  #151618;
+    color: #151618;
 
     font-size: 16px;
     font-style: italic;
@@ -244,6 +244,94 @@ body {
     line-height: normal;
     color: black;
 }
+
+
+.main-blog {
+    padding: 150px 0;
+}
+
+.main-blog__title {
+    margin-bottom: 60px;
+}
+
+
+.main-blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;
+    margin-bottom: 72px;
+}
+
+.main-blog__item {
+    flex: 1 1 552px;
+}
+
+.main-blog__item-img {
+}
+
+.main-blog__item-content {
+}
+
+.main-blog__item-title {
+}
+
+.main-blog__item-autor {
+}
+
+.main-blog__item-link {
+}
+
+.main-blog__link {
+}
+
+.mailing-list {
+}
+
+.mailing-list__title {
+}
+
+.mailing-list__inner {
+}
+
+.mailing-list__text {
+}
+
+.mailing-list__form {
+}
+
+.mailing-list__email {
+}
+
+.mailing-list__btn {
+}
+
+.checkbox {
+}
+
+.checkbox__style {
+}
+
+.checkbox__text {
+}
+
+.prioritise {
+}
+
+.prioritise__list {
+}
+
+.prioritise__item {
+}
+
+.prioritise__item-title {
+}
+
+.prioritise__item-text {
+}
+
+.prioritise__img {
+}
+
 
 /*media*/
 
@@ -267,7 +355,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-    .reviews__item-hide{
+    .reviews__item-hide {
         display: none;
     }
 
@@ -319,7 +407,8 @@ body {
     .reviews__item {
         flex: 0 1 280px;
     }
-    .reviews__item-hide{
+
+    .reviews__item-hide {
         display: block;
     }
 
@@ -454,9 +543,11 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .reviews__item {
         flex: 0 1 220px;
     }
+
     .blockquote {
         padding: 60px 54px 60px 50px;
     }
@@ -465,7 +556,7 @@ body {
 @media (max-width: 590px) {
 
     .menu__list {
-       width: 360px;
+        width: 360px;
     }
 
     .logo {
@@ -489,13 +580,14 @@ body {
 }
 
 @media (max-width: 480px) {
-.reviews{
-    padding: 50px 0;
-}
+    .reviews {
+        padding: 50px 0;
+    }
 
-    .reviews__title{
+    .reviews__title {
         margin-bottom: 50px;
     }
+
     .logo {
         margin-right: 80px;
     }
@@ -518,8 +610,8 @@ body {
 
 }
 
-@media(max-width: 479px) {
-    .reviews__item{
+@media (max-width: 479px) {
+    .reviews__item {
         flex: 0 1 100%;
     }
 
@@ -548,9 +640,11 @@ body {
     .menu {
         margin-right: 0;
     }
+
     .menu__list {
         width: 100%;
     }
+
     .assortment {
         padding-bottom: 80px;
     }
