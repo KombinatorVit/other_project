@@ -5,24 +5,133 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="tea maket fixed and new sections">
-      <change afterPath="$PROJECT_DIR$/bakery/src/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Иконка.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/icons/01-Картинка-фона.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/icons/02-Иконка.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakery/src/icons/03-Иконка.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/blog4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tea_maket/images/prioritise4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/avatar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/btn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/how-it-works.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/mobile-nav-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/mobile-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/blocks/story.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/Georgia.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/stylesheet — backup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Georgia/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Hairline.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Hairline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Hairline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HairlineItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HairlineItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HairlineItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Heavy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HeavyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HeavyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-HeavyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-SemiboldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-SemiboldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-ThinItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/Lato-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/stylesheet — backup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/fonts/Lato/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/footer-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/home/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/product/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/product/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/steps/step-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/steps/step-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/steps/step-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/story/pause-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/story/play-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/img/story/video-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alivio/video/customer-story.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakery/src/icons/rigth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/js/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/_libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/app/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desire/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/paypal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/rigth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/social-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/social-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/social-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/social-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/tea-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tea_maket/images/visa.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tea_maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tea_maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/index.html" afterDir="false" />
     </list>
@@ -33,6 +142,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tea_maket/css/style.css" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,7 +167,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/bakery/src/css",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/desire",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,11 +179,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bakery/src/css" />
-      <recent name="$PROJECT_DIR$/bakery/src/icons" />
+      <recent name="$PROJECT_DIR$/desire" />
       <recent name="$PROJECT_DIR$/tea_maket/images" />
+      <recent name="$PROJECT_DIR$/bakery/src/icons" />
+      <recent name="$PROJECT_DIR$/bakery/src/css" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/project-freelance/_1/2/img/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/di-gi/fonts" />
@@ -139,7 +251,8 @@
       <workItem from="1703015734039" duration="26450000" />
       <workItem from="1703424482356" duration="56441000" />
       <workItem from="1703875996997" duration="193000" />
-      <workItem from="1703878946105" duration="13335000" />
+      <workItem from="1703878946105" duration="39706000" />
+      <workItem from="1704016853527" duration="7239000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -337,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703884175215</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="tea maket fixed and new sections">
+      <created>1703959634853</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703959634853</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
