@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="tea maket fixed and new sections">
-      <change afterPath="$PROJECT_DIR$/bakery/src/img/01-Logo.svg" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="new sections">
+      <change afterPath="$PROJECT_DIR$/Clients-application/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/fonts/OpenSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/fonts/OpenSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/fonts/OpenSans-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/js/createHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/client/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/server/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clients-application/server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakery/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +52,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/bakery/src/img",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bakery/src/img" />
       <recent name="$PROJECT_DIR$/desire" />
       <recent name="$PROJECT_DIR$/tea_maket/images" />
       <recent name="$PROJECT_DIR$/bakery/src/icons" />
-      <recent name="$PROJECT_DIR$/bakery/src/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/di-gi/fonts" />
@@ -128,7 +138,7 @@
       <workItem from="1703875996997" duration="193000" />
       <workItem from="1703878946105" duration="39706000" />
       <workItem from="1704016853527" duration="7287000" />
-      <workItem from="1704123469299" duration="3486000" />
+      <workItem from="1704123469299" duration="5800000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -340,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704123448006</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="new sections">
+      <created>1704227308751</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1704227308751</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +388,7 @@
     <MESSAGE value="update project and worked tea project" />
     <MESSAGE value="upgrade valmari project" />
     <MESSAGE value="tea maket fixed and new sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="tea maket fixed and new sections" />
+    <MESSAGE value="new sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="new sections" />
   </component>
 </project>
