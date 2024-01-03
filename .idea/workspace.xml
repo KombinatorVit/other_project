@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add server project">
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="finish  TEA project">
+      <change afterPath="$PROJECT_DIR$/oculus/images/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/images/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/01-Logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/01-Иконка.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/01-Картинка-фона.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/02-Иконка.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/03-Иконка.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/icons/rigth.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/img/01-Logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakery/src/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tea_maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tea_maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea_maket/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oculus/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/oculus/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oculus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oculus/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/oculus/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oculus/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bakery/src/img" />
       <recent name="$PROJECT_DIR$/desire" />
       <recent name="$PROJECT_DIR$/tea_maket/images" />
-      <recent name="$PROJECT_DIR$/bakery/src/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/di-gi/fonts" />
@@ -139,7 +130,7 @@
       <workItem from="1703875996997" duration="193000" />
       <workItem from="1703878946105" duration="39706000" />
       <workItem from="1704016853527" duration="7287000" />
-      <workItem from="1704123469299" duration="22870000" />
+      <workItem from="1704123469299" duration="28799000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -365,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704275262441</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="finish  TEA project">
+      <created>1704295960275</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1704295960275</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +396,7 @@
     <MESSAGE value="tea maket fixed and new sections" />
     <MESSAGE value="new sections" />
     <MESSAGE value="add server project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server project" />
+    <MESSAGE value="finish  TEA project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish  TEA project" />
   </component>
 </project>
