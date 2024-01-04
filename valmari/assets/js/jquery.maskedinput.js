@@ -1,10 +1,10 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['jquery'], factory);
+        define(['party/jquery/js'], factory);
     } else if (typeof exports === 'object') {
         // Node/CommonJS
-        factory(require('jquery'));
+        factory(require('party/jquery/js'));
     } else {
         // Browser globals
         factory(jQuery);

@@ -51,9 +51,8 @@ header a {
 
 nav {
 	padding: 33px 50px;
-	margin-bottom: 60px;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto 60px;
 }
 
 nav ul {
