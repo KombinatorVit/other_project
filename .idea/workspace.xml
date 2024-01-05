@@ -4,36 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="Oculus add sections">
-      <change afterPath="$PROJECT_DIR$/oculus/images/buy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/css/normilize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/css/normilize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/jquery2/js/slick.min.js" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new slider and dots">
+      <change afterPath="$PROJECT_DIR$/oculus/images/eq-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oculus/images/eq-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/magic-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/js/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessHTML/js/jquery.maskedinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessHTML/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Miro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Miro/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Miro/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/auto/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oculus/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/oculus/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oculus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oculus/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valmari/assets/js/counter/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/valmari/assets/js/counter/jquery.cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valmari/assets/js/jquery.maskedinput.js" beforeDir="false" afterPath="$PROJECT_DIR$/valmari/assets/js/jquery.maskedinput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valmari/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/valmari/assets/js/jquery.validate.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/party/jquery2/images",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/party/marketing/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/party/jquery2/images" />
+      <recent name="$PROJECT_DIR$/party/marketing/images" />
       <recent name="$PROJECT_DIR$/party" />
+      <recent name="$PROJECT_DIR$/oculus/images" />
+      <recent name="$PROJECT_DIR$/party/jquery2/images" />
       <recent name="$PROJECT_DIR$/jquery/images" />
-      <recent name="$PROJECT_DIR$/jquery/css" />
-      <recent name="$PROJECT_DIR$/jquery/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -161,7 +148,8 @@
       <workItem from="1704304309664" duration="2673000" />
       <workItem from="1704317232200" duration="11537000" />
       <workItem from="1704331943793" duration="1221000" />
-      <workItem from="1704357879310" duration="16188000" />
+      <workItem from="1704357879310" duration="16962000" />
+      <workItem from="1704388039690" duration="26060000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -415,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704328681877</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add new slider and dots">
+      <created>1704386795606</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1704386795606</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,6 +447,7 @@
     <MESSAGE value="oculus 1 path" />
     <MESSAGE value="clients sections add styles and js" />
     <MESSAGE value="Oculus add sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oculus add sections" />
+    <MESSAGE value="add new slider and dots" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new slider and dots" />
   </component>
 </project>
