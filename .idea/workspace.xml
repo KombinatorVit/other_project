@@ -4,23 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new slider and dots">
-      <change afterPath="$PROJECT_DIR$/oculus/images/eq-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oculus/images/eq-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/expertise3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/magic-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/js/slick.min.js" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new marketing project">
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portf-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/images/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/images/header-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/wawe/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/cta/cta-el-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/cta/cta-el-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/customers/customers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/customers/stars-rating.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/customers/user-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/el-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/el-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/el-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/el-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/header-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/header-elements.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/header/header-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/slider/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/slider/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/slider/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/slider/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/img/slider/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oculus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oculus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/party/marketing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/party/marketing/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/party/marketing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/party/marketing/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +82,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/party/marketing/images",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,11 +94,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/party/marketing/images/portfolio" />
       <recent name="$PROJECT_DIR$/party/marketing/images" />
+      <recent name="$PROJECT_DIR$/party/wawe/images" />
       <recent name="$PROJECT_DIR$/party" />
-      <recent name="$PROJECT_DIR$/oculus/images" />
-      <recent name="$PROJECT_DIR$/party/jquery2/images" />
-      <recent name="$PROJECT_DIR$/jquery/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -149,7 +177,8 @@
       <workItem from="1704317232200" duration="11537000" />
       <workItem from="1704331943793" duration="1221000" />
       <workItem from="1704357879310" duration="16962000" />
-      <workItem from="1704388039690" duration="26060000" />
+      <workItem from="1704388039690" duration="28909000" />
+      <workItem from="1704486509447" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -410,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704386795606</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add new marketing project">
+      <created>1704481408188</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1704481408188</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,6 +484,7 @@
     <MESSAGE value="clients sections add styles and js" />
     <MESSAGE value="Oculus add sections" />
     <MESSAGE value="add new slider and dots" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new slider and dots" />
+    <MESSAGE value="add new marketing project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new marketing project" />
   </component>
 </project>

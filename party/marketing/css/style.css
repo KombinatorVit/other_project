@@ -354,7 +354,7 @@ body {
 
 
 .magic {
-    background: #F6F8FA url('../images/magic-bg.jpg') left top/50% no-repeat ;
+    background: #F6F8FA url('../images/magic-bg.jpg') left top/50% no-repeat;
 
 }
 
@@ -380,4 +380,59 @@ body {
 
 .magic__text p:last-child {
     margin-bottom: 0;
+}
+
+/*///*/
+
+.portfolio {
+    padding: 140px 0 160px;
+    background: #FFF;
+}
+
+.container {
+}
+
+.portfolio__top {
+}
+
+.title {
+}
+
+.portfolio__title {
+}
+
+.portfolio__filter-btn {
+}
+
+.portfolio__filter-btn-item {
+}
+
+.active {
+}
+
+.portfolio__content {
+}
+
+.portfolio__item {
+}
+
+.portfolio__add {
+}
+
+.blockquote {
+}
+
+.blockquote__author {
+}
+
+.portfolio__video {
+}
+
+.portfolio__video-link {
+}
+
+.portfolio__numbers {
+}
+
+.portfolio__numbers_item {
 }

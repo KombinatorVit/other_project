@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*font-family: 'Raleway', sans-serif;*/
+
+body {
+    min-height: 100vh;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.6px;
+    color: #242121;
+
+}
+
+.wrapper {
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.60) 31.64%, rgba(51, 51, 51, 0.22) 74.35%, rgba(51, 51, 51, 0.00) 99.87%), url('../images/header-bg.jpg'), center top / cover no-repeat;
+    padding: 35px 0 60px;
+
+
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 260px;
+}
+
+.logo {
+    margin-right: 185px;
+}
+
+.logo__img {
+}
+
+.nav {
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 45px;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+    color: #FFF;
+
+    font-family: Roboto Condensed sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.header__content {
+    text-align: center;
+}
+
+h1 {
+    color: #0D302C;
+
+    font-family: Raleway sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.header__content-text {
+    color: #000;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 315px;
+}
+
+.header__content-link {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.header__content-img {
+}
+
+
+
+
+
+
+
