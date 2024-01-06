@@ -4,51 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new marketing project">
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portf-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/marketing/images/portfolio/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/images/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/images/header-bottom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/party/wawe/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/cta/cta-el-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/cta/cta-el-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/customers/customers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/customers/stars-rating.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/customers/user-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/el-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/el-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/el-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/el-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/header-bottom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/header-elements.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/header/header-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/slider/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/slider/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/slider/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/slider/arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/img/slider/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/js/main.js" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new marketing section&#10;add travel project">
+      <change afterPath="$PROJECT_DIR$/party/marketing/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/js/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/js/mixitup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/libs/youtubeLightbox/youtubeLightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/party/marketing/libs/youtubeLightbox/youtubeLightbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/party/marketing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/party/marketing/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/party/marketing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/party/marketing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/party/marketing/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/party/marketing/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +47,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/party/marketing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/party/marketing" />
+      <recent name="$PROJECT_DIR$/party/marketing/css/libs" />
+      <recent name="$PROJECT_DIR$/party/marketing/css" />
+      <recent name="$PROJECT_DIR$/party/marketing/js" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/party/marketing/images/portfolio" />
-      <recent name="$PROJECT_DIR$/party/marketing/images" />
-      <recent name="$PROJECT_DIR$/party/wawe/images" />
-      <recent name="$PROJECT_DIR$/party" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -178,7 +143,7 @@
       <workItem from="1704331943793" duration="1221000" />
       <workItem from="1704357879310" duration="16962000" />
       <workItem from="1704388039690" duration="28909000" />
-      <workItem from="1704486509447" duration="6010000" />
+      <workItem from="1704486509447" duration="20398000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -446,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704481408188</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add new marketing section&#10;add travel project">
+      <created>1704534011210</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1704534011210</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +457,7 @@
     <MESSAGE value="Oculus add sections" />
     <MESSAGE value="add new slider and dots" />
     <MESSAGE value="add new marketing project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new marketing project" />
+    <MESSAGE value="add new marketing section&#10;add travel project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new marketing section&#10;add travel project" />
   </component>
 </project>
