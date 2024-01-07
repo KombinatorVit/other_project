@@ -4,146 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new marketing section">
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/benefits/icon-authenticity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/benefits/icon-entrepreneurship.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/benefits/icon-kindness.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/benefits/icon-performance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/cards/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/cards/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/clients/01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/clients/02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/clients/03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/clients/04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/contacts/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/contacts/girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/contacts/oval.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/cta/dashboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/cta/oval-bottom-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/cta/oval-top-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/header/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/building.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/button-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/buyers.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/icons/seller.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/social/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/social/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/social/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/social/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/testimonials/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/testimonials/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/testimonials/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/img/testimonials/design-element.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/base/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_benefit-item.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_benefits.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_card-customer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_card-info.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_card-testimonial.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_clients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_img-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_navigation-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_objects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_serve.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/blocks/_title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cutspace-Landing Page/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Green-palette/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Green-palette/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Green-palette/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Green-palette/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/calendar-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/logos/ct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/logos/st.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/logos/ud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/social/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/social/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/social/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/star-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/images/view-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/styles/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Miro/PurpleSchool/styles/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/about/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/about/about-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/about/about-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/about/about__decor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/decor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/header/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/header/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/products/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/products/product-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/products/product-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/products/product-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/socials/fb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/socials/insta.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/socials/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/socials/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/top/top-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/top/top-m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/top/top-s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/gitHub-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/gitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/linkedIn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/sun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/icons/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/01-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/02-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/03-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/04-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/05-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/06-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/img/projects/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/project-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freelanceportfolio-test/skills.html" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add new candler section/ add new landing project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/party/wawe/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/party/wawe/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/party/wawe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/party/wawe/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +145,7 @@
       <workItem from="1704388039690" duration="28909000" />
       <workItem from="1704486509447" duration="24930000" />
       <workItem from="1704557827734" duration="42614000" />
-      <workItem from="1704639282806" duration="254000" />
+      <workItem from="1704639282806" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -565,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704552313567</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add new candler section/ add new landing project">
+      <created>1704639628535</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1704639628535</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,6 +475,7 @@
     <MESSAGE value="add new marketing project" />
     <MESSAGE value="add new marketing section&#10;add travel project" />
     <MESSAGE value="add new marketing section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new marketing section" />
+    <MESSAGE value="add new candler section/ add new landing project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new candler section/ add new landing project" />
   </component>
 </project>
