@@ -4,12 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/candler/images/course/course-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candler/images/course/course-2.jpg" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="Candler add new sections">
+      <change afterPath="$PROJECT_DIR$/candler/images/certificates/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/certificates/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/certificates/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/certificates/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/insta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candler/images/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/fonts/Gilroy/Gilroy-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/fonts/Gilroy/Gilroy-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/fonts/Gilroy/Gilroy-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/fonts/Gilroy/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/header/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/header/header-bg@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/check-no-shadow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/hint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/mobile-nav.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/slider/slider-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/slider/slider-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/star-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/icons/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-02@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-03@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/img/products/chair-04@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/base/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_benefit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_benefits.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_info-dot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_info-hint.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_mobile-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_nav-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_products.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_read-more.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_search-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_sub-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/blocks/_tab-controls.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panto-furniture-store/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candler/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/candler/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/candler/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candler/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/candler/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +114,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/candler/images/course",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/candler/images/course" />
-      <recent name="$PROJECT_DIR$/candler/images/steps" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/candler/images/certificates" />
       <recent name="$PROJECT_DIR$/candler/images" />
-      <recent name="$PROJECT_DIR$/candler/images/products" />
+      <recent name="$PROJECT_DIR$/candler/images/team" />
+      <recent name="$PROJECT_DIR$/candler/images/course" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -149,7 +213,7 @@
       <workItem from="1704388039690" duration="28909000" />
       <workItem from="1704486509447" duration="24930000" />
       <workItem from="1704557827734" duration="42614000" />
-      <workItem from="1704639282806" duration="30585000" />
+      <workItem from="1704639282806" duration="69757000" />
     </task>
     <task id="LOCAL-00001" summary="update + news project">
       <created>1685908152407</created>
@@ -452,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704727677198</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Candler add new sections">
+      <created>1704821223331</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1704821223331</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +565,7 @@
     <MESSAGE value="add new marketing section" />
     <MESSAGE value="add new candler section/ add new landing project" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Candler add new sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Candler add new sections" />
   </component>
 </project>
