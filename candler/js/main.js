@@ -26,9 +26,9 @@ const swiperTwo = new Swiper('.certificate__slider', {
     loop: true,
     spaceBetween: 20,
     mousewheel: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     breakpoints: {
-    
+
         501: {
             slidesPerView: 3,
         },
@@ -36,9 +36,7 @@ const swiperTwo = new Swiper('.certificate__slider', {
             slidesPerView: 2,
 
         },
-        400: {
-            slidesPerView: 1,
-        },
+
 
     },
 

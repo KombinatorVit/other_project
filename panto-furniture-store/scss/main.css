@@ -565,6 +565,12 @@ body {
   border-radius: 44px;
   background: #eee;
 }
+@media (max-width: 441px) {
+  .tab-controls {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
 
 .tab-controls__btn {
   height: 45px;
