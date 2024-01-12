@@ -23,8 +23,6 @@ ul {
 }
 
 
-/*font-family: 'Roboto', sans-serif;*/
-/*font-family: 'Yeseva One', serif;*/
 body {
 
     font-family: 'Comfortaa', sans-serif;
@@ -58,7 +56,16 @@ button {
     border: none;
     padding: 0;
     border-radius: 0;
+    transition: all 0.3s ease;
 
+
+}
+
+.button:hover {
+    background-color: #f6b64b;
+    color: #272727;
+    box-shadow: 0 0 20px rgba(246, 182, 75, 0.7);
+    transform: scale(1.05);
 }
 
 
@@ -156,6 +163,13 @@ button {
 }
 
 .menu__link {
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+a:hover {
+    color: #FFBD59;
 }
 
 .phone {
@@ -253,14 +267,26 @@ button {
 .top__buy {
     padding: 18px 54px;
     background: #FFBD59;
-    font-family: Comfortaa sans-serif;
+    font-family: Comfortaa, sans-serif;
     font-size: 14px;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #272727;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Округлені кути */
 }
+
+.top__buy:hover {
+    background-color: #f6b64b;
+    color: #272727;
+    box-shadow: 0 0 20px rgba(246, 182, 75, 0.7); /* Доданий тіньовий ефект */
+    transform: scale(1.05); /* Збільшення розміру при наведенні */
+}
+
 
 .top__img {
     position: absolute;
@@ -810,6 +836,99 @@ button {
 
 .contacts__img {
 }
+
+
+.questions {
+}
+
+
+.questions__inner {
+}
+
+
+.questions__descr {
+}
+
+
+.questions__title {
+
+}
+
+
+.questions__content {
+}
+
+
+.accordion {
+    margin-bottom: 10px;
+}
+
+.accordion__item {
+    margin-bottom: 10px;
+    background: #FAFAFA;
+
+}
+
+.accordion__btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-family: Yeseva One sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 50px 16px 13px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.accordion__btn:after {
+    content: '';
+    position: absolute;
+    background-image: url("../images/arrow.svg");
+    width: 16px;
+    height: 16px;
+    top: 40%;
+    right: 26px;
+}
+
+.accordion__btn--active {
+
+
+}
+
+.accordion__text--active {
+
+}
+
+.accordion__btn--active:after {
+    transform: rotate(180deg);
+}
+
+
+.accordion__btn--active + .accordion__text {
+    opacity: 1;
+    transition: all 0.5s ease;
+
+
+}
+
+.accordion__wrapper{
+    padding: 20px 40px;
+
+}
+
+
+.accordion__text {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
 
 /*//////////////////////////////////*/
 
@@ -1400,11 +1519,13 @@ button {
     .promo__inner {
         gap: 85px;
     }
-    .promo{
+
+    .promo {
         padding: 42px 0;
     }
-    .promo__link{
-        top:0
+
+    .promo__link {
+        top: 0
     }
 }
 
@@ -1554,15 +1675,21 @@ button {
     .team__item-desck {
         font-size: 9px;
     }
-    .contacts__img{
+
+    .contacts__img {
         display: none;
     }
-    .contacts{
+
+    .contacts {
         padding-top: 50px;
     }
-    .button__form{
+
+    .button__form {
         font-size: 8px;
         padding: 15px 14px;
+    }
+    .questions__title{
+        text-align: center;
     }
 }
 
@@ -1604,17 +1731,20 @@ button {
     .feedback__content {
         padding-bottom: 80px;
     }
+
     .promo__inner {
         gap: 50px;
     }
-    .promo__text{
+
+    .promo__text {
         max-width: 234px;
         padding-left: 0;
 
     }
-    .promo__link{
+
+    .promo__link {
         padding: 11px 14px;
-        top:20px
+        top: 20px
     }
 }
 

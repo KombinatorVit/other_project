@@ -47,3 +47,25 @@ const swiperTwo = new Swiper('.certificate__slider', {
 
 
 });
+
+const accordion = document.querySelector('.accordion');
+const accordionBtns = accordion.querySelectorAll('.accordion__btn');
+
+accordionBtns.forEach.call(accordionBtns, function (accordionBtn) {
+    accordionBtn.addEventListener('click', function () {
+
+        const accordionText = accordionBtn.parentNode.querySelector('.accordion__text');
+
+        console.log(accordionText)
+        accordionBtn.classList.toggle('accordion__btn--active');
+        accordionText.classList.toggle('accordion__text--active');
+
+        if(accordionText.classList.contains('accordion__text--active')) {
+            accordionText.style.maxHeight = accordionText.scrollHeight + 'px';
+        } else {
+            accordionText.style.maxHeight =null; // Встановлюємо велике значення max-height
+        }
+
+    })
+})
+
