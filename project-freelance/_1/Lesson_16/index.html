@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="main">
+
+				<form class="main__form form" action="#">
+					<div class="form__line">
+						<!-- <label for="username" class="form__label">Введите имя</label> -->
+						<input id="username" placeholder="Введите имя" autocomplete="off" type="text" name="username" class="form__input">
+					</div>
+					<div class="form__line">
+						<div class="checkbox">
+							<input id="car" autocomplete="off" type="checkbox" name="car" class="checkbox__input">
+							<label for="car" class="checkbox__label">Автомобиль?</label>
+						</div>
+					</div>
+					<div class="form__line">
+						<div class="switcher">
+							<input id="switcher" autocomplete="off" type="checkbox" name="switcher" class="switcher__input">
+							<label for="switcher" class="switcher__label"></label>
+						</div>
+					</div>
+					<div class="form__line">
+						<div class="radiobuttons">
+							<div class="radiobuttons__item">
+								<input id="color_1" autocomplete="off" type="radio" name="color" class="radiobuttons__input">
+								<label for="color_1" class="radiobuttons__label">Зеленый</label>
+							</div>
+							<div class="radiobuttons__item">
+								<input id="color_2" autocomplete="off" type="radio" name="color" class="radiobuttons__input">
+								<label for="color_2" class="radiobuttons__label">Красный</label>
+							</div>
+						</div>
+					</div>
+					<div class="form__line">
+						<div class="file">
+							<input id="file_1" class="file__input" type="file">
+							<label for="file_1" class="file__label">Выбрать файл</label>
+						</div>
+					</div>
+					<div class="form__line">
+						<select name="select" class="form__select">
+							<option value="1" selected>Пункт №1</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option value="4">Пункт №4</option>
+						</select>
+					</div>
+					<div class="form__line">
+						<textarea autocomplete="off" name="text" class="form__textarea"></textarea>
+					</div>
+					<button type="submit" class="form__button">Отправить</button>
+				</form>
+
+
+
+				<form action="#">
+					<!-- Ввод данных -->
+					<label for="input_01">Я подпись к полю</label>
+					<input tabindex="-1" id="input_01" autocomplete="off" required placeholder="Строка" name="string" value="" type="text">
+					<!-- Ввод данных - число -->
+					<input autocomplete="off" required placeholder="Число" name="number" value="" type="number">
+					<!-- Ввод данных - телефон -->
+					<input tabindex="3" autocomplete="off" required placeholder="Номер телефона" name="phone" value="" type="tel">
+					<!-- Ввод данных - почта -->
+					<input autocomplete="off" required placeholder="Почта" name="email" value="" type="email">
+					<!-- Ввод данных - календарь -->
+					<input autocomplete="off" required placeholder="Календарь" name="datetime" value="" type="datetime-local">
+					<div>
+						<!-- Ввод данных - выбор И-множественный выбор (чекбокс) -->
+						<input checked autocomplete="off" required name="check" value="" type="checkbox"> Есть авто?
+					</div>
+					<div>
+						<!-- Ввод данных - выбор ИЛИ-единичный выбор (радиокнопка) -->
+						<input checked autocomplete="off" required name="gender" value="m" type="radio"> М
+						<input autocomplete="off" required name="gender" value="f" type="radio"> Ж
+					</div>
+					<div>
+						<!-- Ввод данных - выбор ИЛИ-единичный выбор (радиокнопка) -->
+						<input checked autocomplete="off" required name="color" value="red" type="radio"> red
+						<input autocomplete="off" required name="color" value="blue" type="radio"> blue
+					</div>
+					<div>
+						<!-- Ввод данных - прикрепить файл -->
+						<input autocomplete="off" accept=".jpg, .png" multiple required name="file" type="file">
+					</div>
+					<div>
+						<!-- Ввод данных - пароль -->
+						<input autocomplete="off" required placeholder="Пароль" name="pass" value="" type="password">
+					</div>
+					<div>
+						<!-- Ввод данных - ползунок -->
+						<input autocomplete="off" name="range" value="" type="range">
+					</div>
+					<!-- Ввод данных - многострочный -->
+					<textarea tabindex="4" name="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere reiciendis maxime, tempora quidem illo et porro nostrum perferendis, optio earum commodi non consequatur impedit unde quasi soluta. Ut, fugiat laboriosam.</textarea>
+					<div>
+						<!-- Ввод данных - выпадающий список -->
+						<select name="select">
+							<option value="1">Пункт №1</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option value="4">Пункт №4</option>
+						</select>
+					</div>
+					<div>
+						<button type="submit">Я кнопка</button>
+					</div>
+				</form>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
