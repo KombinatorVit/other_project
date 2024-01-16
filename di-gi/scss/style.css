@@ -47,14 +47,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  max-height: 320px;
+  min-width: 320px;
   overflow-x: hidden;
 }
 
 .container {
   padding: 0 20px;
 }
-
 @media (min-width: 640px) {
   .container {
     padding: 0 30px;
@@ -77,6 +76,7 @@ body {
     max-width: 1320px;
   }
 }
+
 .header {
   background: #2B4074;
 }
@@ -87,22 +87,22 @@ body {
   align-items: center;
 }
 @media (min-width: 640px) {
-  .header .header__inner {
+  .header__inner {
     min-height: 100px;
   }
 }
 
-.logo .logo__link {
+.logo__link {
   display: inline-block;
   margin: 7px 0 7px 8px;
 }
 @media (min-width: 640px) {
-  .logo .logo__link {
+  .logo__link {
     margin: 17px 0 17px 23px;
   }
 }
 @media (min-width: 768px) {
-  .logo .logo__link {
+  .logo__link {
     margin: 17px 0 17px 0;
   }
 }
