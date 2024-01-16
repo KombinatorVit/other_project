@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
   min-width: 320px;
   overflow-x: hidden;
+  font-family: Roboto-Regular, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -116,7 +118,6 @@ body {
   min-height: 193px;
 
 
-
 }
 
 .top-slider {
@@ -126,7 +127,21 @@ body {
     color: white;
     text-align: center;
   }
-  &__title {
 
+  &__title {
+    font-family: 'Roboto-Condensed-Regular', sans-serif;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+    text-transform: uppercase;
+    padding: 36px 0 28px;
+    min-width: 243px;
+    margin: 0 auto;
+  }
+
+  .slick-dots{
+    display: flex;
+    justify-content: center;
   }
 }

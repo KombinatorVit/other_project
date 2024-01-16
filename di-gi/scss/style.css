@@ -30,7 +30,7 @@
 }
 @font-face {
   font-family: "Dosis-Light";
-  font-weight: 700;
+  font-weight: 300;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff");
   font-style: normal;
 }
@@ -49,6 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
   min-width: 320px;
   overflow-x: hidden;
+  font-family: Roboto-Regular, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -147,6 +149,21 @@ body {
 .top-slider__item {
   color: white;
   text-align: center;
+}
+.top-slider__title {
+  font-family: "Roboto-Condensed-Regular", sans-serif;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+  text-transform: uppercase;
+  padding: 36px 0 28px;
+  min-width: 243px;
+  margin: 0 auto;
+}
+.top-slider .slick-dots {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
