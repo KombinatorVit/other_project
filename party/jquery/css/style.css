@@ -40,7 +40,7 @@ ul {
     min-height: 100vh;
     padding: 34px 0 0 0;
 
-    background-image: url("bg.jpg");
+    background-image: url("./../images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
