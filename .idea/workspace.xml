@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update project">
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update project di-gi">
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/css/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/css/_null.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/fonts/Gilroy-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/fonts/Gilroy-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/fonts/Gilroy-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/fonts/Gilroy-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/fonts/SFProDisplay-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/icons/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/icons/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/icons/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/icons/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/decor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/decor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/icons/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/icons/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/icons/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/impact/icons/04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/mainpage/services/decor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/test/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/test/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/test/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/title-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/img/title-icon_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/di-gi/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.scss" afterDir="false" />
@@ -52,7 +84,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/di-gi/js",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/project-freelance/_1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project-freelance/_1" />
       <recent name="$PROJECT_DIR$/di-gi/js" />
       <recent name="$PROJECT_DIR$/di-gi/css" />
       <recent name="$PROJECT_DIR$/goCorona/img/healthcare" />
       <recent name="$PROJECT_DIR$/goCorona/img" />
-      <recent name="$PROJECT_DIR$/project-freelance/_1/2/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -154,14 +186,8 @@
       <workItem from="1704639282806" duration="83524000" />
       <workItem from="1705063630200" duration="45483000" />
       <workItem from="1705175457651" duration="54434000" />
-      <workItem from="1705406505053" duration="6826000" />
-    </task>
-    <task id="LOCAL-00005" summary="add new projects">
-      <created>1686844746923</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1686844746923</updated>
+      <workItem from="1705406505053" duration="8587000" />
+      <workItem from="1705492956595" duration="2393000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -499,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705406523012</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update project di-gi">
+      <created>1705438692523</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1705438692525</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +551,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add auto project" />
     <MESSAGE value="update project and add Fitness project" />
     <MESSAGE value="update project and worked tea project" />
     <MESSAGE value="upgrade valmari project" />
@@ -543,6 +575,7 @@
     <MESSAGE value="add new project goCorona" />
     <MESSAGE value="goCorona finish project" />
     <MESSAGE value="update project" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project" />
+    <MESSAGE value="update project di-gi" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project di-gi" />
   </component>
 </project>
