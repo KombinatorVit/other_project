@@ -147,6 +147,12 @@ body {
   background-position: center center;
   background-size: cover;
   min-height: 193px;
+  position: relative;
+}
+@media (min-width: 640px) {
+  .head {
+    min-height: 386px;
+  }
 }
 
 .top-slider {
@@ -155,6 +161,7 @@ body {
 .top-slider__item {
   color: white;
   text-align: center;
+  min-height: 193px;
 }
 .top-slider__title {
   font-family: "Roboto-Condensed-Regular", sans-serif;
@@ -164,12 +171,88 @@ body {
   line-height: 1; /* 100% */
   text-transform: uppercase;
   padding: 36px 0 28px;
-  min-width: 243px;
+  max-width: 243px;
   margin: 0 auto;
+  position: relative;
+}
+.top-slider__title::after {
+  content: "";
+  position: absolute;
+  width: 61px;
+  height: 8px;
+  background: #FFF;
+  bottom: 0;
+  rigth: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #4A4A4A;
+}
+.top-slider__btn {
+  display: none;
 }
 .top-slider .slick-dots {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+.top-slider .slick-dots .slick-active button {
+  background: transparent;
+  border: 1px solid #476E4D;
+}
+.top-slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #2B4074;
+  padding: 0;
+  cursor: pointer;
+  margin: 0 10px;
+}
+@media (min-width: 640px) {
+  .top-slider .top-slider__item {
+    min-height: 386px;
+  }
+  .top-slider .top-slider__title {
+    font-size: 60px;
+    text-align: center;
+    line-height: 1;
+    max-width: 360px;
+    font-weight: 400;
+    padding: 50px 0 15px;
+    margin: 0 auto 30px;
+  }
+  .top-slider .top-slider__btn {
+    display: block;
+    margin: 0 auto 113px;
+    color: #F9F6E5;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    background: #2B4074;
+    padding: 16px 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .top-slider .slick-dots {
+    bottom: 50px;
+  }
+  .top-slider .slick-arrow {
+    width: 56px;
+    height: 56px;
+    background: #2B4074;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

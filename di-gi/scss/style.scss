@@ -13,6 +13,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
 ul, li {
   margin: 0;
   padding: 0;
@@ -121,6 +122,10 @@ body {
   background-position: center center;
   background-size: cover;
   min-height: 193px;
+  position: relative;
+  @media (min-width: 640px) {
+    min-height: 386px;
+  }
 
 
 }
@@ -128,11 +133,14 @@ body {
 .top-slider {
   background: rgba(33, 33, 33, 0.50);
 
+
   &__item {
     color: white;
     text-align: center;
-  }
+    min-height: 193px;
 
+
+  }
 
 
   &__title {
@@ -143,12 +151,107 @@ body {
     line-height: 1; /* 100% */
     text-transform: uppercase;
     padding: 36px 0 28px;
-    min-width: 243px;
+    max-width: 243px;
     margin: 0 auto;
+    position: relative;
+
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 61px;
+      height: 8px;
+      background: #FFF;
+      bottom: 0;
+      rigth: 50%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: $text-color;
+    }
+
   }
 
-  .slick-dots{
+  &__btn {
+    display: none;
+  }
+
+  .slick-dots {
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+
+
+    .slick-active {
+
+      button {
+        background: transparent;
+        border: 1px solid #476E4D;
+      }
+    }
+
+    button {
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      border: none;
+      border-radius: 50%;
+      background: $accent;
+      padding: 0;
+      cursor: pointer;
+      margin: 0 10px;
+
+    }
+  }
+
+
+  @media (min-width: 640px) {
+    .top-slider {
+      &__item {
+        min-height: 386px;
+
+      }
+
+      &__title {
+        font-size: 60px;
+        text-align: center;
+        line-height: 1;
+        max-width: 360px;
+        font-weight: 400;
+        padding: 50px 0 15px;
+        margin: 0 auto 30px;
+      }
+
+      &__btn {
+        display: block;
+        margin: 0 auto 113px;
+        color: #F9F6E5;
+        font-family: Roboto Condensed, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+        background: $accent;
+        padding: 16px 45px;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+    }
+
+    .slick-dots {
+      bottom: 50px;
+    }
+    .slick-arrow {
+      width: 56px;
+      height: 56px;
+      background: $accent;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+    }
   }
 }

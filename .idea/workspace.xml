@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update gulp and webpack">
+      <change afterPath="$PROJECT_DIR$/di-gi/images/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di-gi/images/forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-freelance/_1/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/Lessons_19/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/Lessons_19/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/Lessons_19/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/Lessons_19/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +69,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project-freelance/_1" />
+      <recent name="$PROJECT_DIR$/di-gi/images" />
       <recent name="$PROJECT_DIR$/vebovio" />
       <recent name="$PROJECT_DIR$/di-gi/js" />
       <recent name="$PROJECT_DIR$/di-gi/css" />
-      <recent name="$PROJECT_DIR$/goCorona/img/healthcare" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -151,7 +158,7 @@
       <workItem from="1705063630200" duration="45483000" />
       <workItem from="1705175457651" duration="54434000" />
       <workItem from="1705406505053" duration="8587000" />
-      <workItem from="1705492956595" duration="10245000" />
+      <workItem from="1705492956595" duration="19735000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -496,7 +503,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
