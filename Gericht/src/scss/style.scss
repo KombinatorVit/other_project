@@ -17,7 +17,8 @@ $fontSize: rem(16); // где 14(px) - размер шрифта по умолч
 
 // Основной цвет шрифта
 $mainColor: #aaa;
-$mainHover: #dcca87;
+$mainYellow: #dcca87;
+$mainWhite: #fff;
 
 // НАСТРОЙКИ ===============================================================================================================================================================================================================================================================================================
 // Минимальная ширина страницы
@@ -48,32 +49,37 @@ $mobileSmall: em(479.98); // Телефоны S
 @import "base/null";
 
 body {
-	color: $mainColor;
-	background-color: #0c0b08;
-	// Скролл заблокирован
-	.lock & {
-		overflow: hidden;
-		touch-action: none;
-	}
+  color: $mainColor;
+  background-color: #0c0b08;
+  // Скролл заблокирован
+  .lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
 }
 
 // Оболочка ============================================================================================================================================================================================================================================================================================================================================================================================================================================
 .wrapper {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	// Сайт загружен
-	.loaded & {
-	}
-	// Прижимаем footer
-	> main {
-		flex: 1 1 auto;
-	}
-	// Фикс для слайдеров
-	> * {
-		min-width: 0;
-	}
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // Сайт загружен
+  .loaded & {
+  }
+
+  // Прижимаем footer
+  > main {
+    position: relative;
+    flex: 1 1 auto;
+    z-index: 2;
+
+  }
+
+  // Фикс для слайдеров
+  > * {
+    min-width: 0;
+  }
 }
 
 // Ограничивающий контейнер ======================================================================================================================================================================================================================
@@ -85,50 +91,53 @@ body {
 Снипет (HTML): cnt
 */
 @if ($responsiveType==1) {
-	// Отзывчивая
-	[class*="__container"] {
-		@if ($maxWidthContainer>0) {
-			max-width: rem($maxWidthContainer);
-			box-sizing: content-box;
-			margin: 0 auto;
-		}
-		@if ($containerPadding>0) {
-			padding: 0 rem(math.div($containerPadding, 2));
-		}
-	}
-	[class*="__container_wide"] {
-		max-width: rem(1680);
-	}
+  // Отзывчивая
+  [class*="__container"] {
+    @if ($maxWidthContainer>0) {
+      max-width: rem($maxWidthContainer);
+      box-sizing: content-box;
+      margin: 0 auto;
+    }
+    @if ($containerPadding>0) {
+      padding: 0 rem(math.div($containerPadding, 2));
+    }
+  }
+  [class*="__container_wide"] {
+    max-width: rem(1680);
+  }
 } @else {
-	// По брейк-поинтам
-	[class*="__container"] {
-		margin: 0 auto;
-		@if ($maxWidthContainer>0) {
-			max-width: rem($maxWidthContainer);
-			box-sizing: content-box;
-		} @else {
-			@if ($containerPadding>0) {
-				padding: 0 rem(math.div($containerPadding, 2));
-			}
-		}
-		@media (max-width: $pc) {
-			max-width: rem(970);
-		}
-		@media (max-width: $tablet) {
-			max-width: rem(750);
-		}
-		@media (max-width: $mobile) {
-			max-width: none;
-			@if ($containerPadding>0 and $maxWidthContainer>0) {
-				padding: 0 rem(math.div($containerPadding, 2));
-			}
-		}
-	}
+  // По брейк-поинтам
+  [class*="__container"] {
+    margin: 0 auto;
+    @if ($maxWidthContainer>0) {
+      max-width: rem($maxWidthContainer);
+      box-sizing: content-box;
+    } @else {
+      @if ($containerPadding>0) {
+        padding: 0 rem(math.div($containerPadding, 2));
+      }
+    }
+    @media (max-width: $pc) {
+      max-width: rem(970);
+    }
+    @media (max-width: $tablet) {
+      max-width: rem(750);
+    }
+    @media (max-width: $mobile) {
+      max-width: none;
+      @if ($containerPadding>0 and $maxWidthContainer>0) {
+        padding: 0 rem(math.div($containerPadding, 2));
+      }
+    }
+  }
 }
 
 // Подключение базовых стилей, шаблонов (заготовок) и вспомагательных классов
 // Для подключения/отключения конкретных стилей смотри base.scss
 @import "base";
+
+// Стили глобальных элементов проекта
+@import "ui";
 
 // Подключение стилей отдельных блоков
 @import "header";
