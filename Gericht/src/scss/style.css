@@ -357,12 +357,12 @@ body {
 }
 .header._header-scroll {
   position: fixed;
-  transform: translate(0px, -100%);
+  top: -100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
 .header._header-show {
   transition: transform 0.3s ease 0s;
-  transform: translate(0px, 0px);
+  top: 0;
 }
 .header__container {
   align-items: center;
