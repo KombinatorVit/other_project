@@ -1,70 +1,125 @@
 .mainpage {
-  // .mainpage__slider
+
   &__slider {
   }
 }
 
+
 .main-slider {
-  @include adaptiveValue("padding-top", 185, 115);
-  @include adaptiveValue("padding-bottom", 70, 70);
-  background-color: #0c0b08;
+  @include adaptiveValue("padding-top", 185, 80);
+  @include adaptiveValue("padding-bottom", 70, 30);
   display: flex;
   // .main-slider__container
   &__container {
+    &:not(.main-slider__container_wide) {
+      padding: 0;
+    }
     // .main-slider__container_wide
     &_wide {
       flex: 1 1 auto;
+      min-width: 0;
       position: relative;
     }
   }
-
   // .main-slider__menu
   &__menu {
   }
-
   // .main-slider__scroll
   &__scroll {
-    position: absolute;
-    bottom: 0;
-    right: rem(15);
+    @media (min-width: em(1445)) {
+      position: absolute;
+      bottom: 0;
+      right: rem(15);
+    }
+    @media (max-width: em(1445)) {
+      display: block;
+      padding-top: rem(15);
+      &::before {
+        display: none;
+      }
+    }
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 }
-
 .body-main-slider {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  @media (min-width: $tablet) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  &.swiper {
+    overflow: visible;
+  }
   // .body-main-slider__swiper
   &__swiper {
     flex: 1 1 auto;
     align-items: center;
   }
-
   // .body-main-slider__slide
   &__slide {
-    height: 100%;
+    @media (min-width: $tablet) {
+      height: 100%;
+    }
   }
-
   // .body-main-slider__controll
   &__controll {
     display: flex;
+    gap: 8px;
     justify-content: center;
     align-items: center;
-    @include adaptiveValue("padding-top", 88, 88);
+    text-transform: capitalize;
+    @extend %cuf;
+
+    @media (min-width: $tablet) {
+      padding-top: rem(88);
+    }
+    @media (max-width: em(1445)) and (min-width: $tablet) {
+      padding-top: rem(15);
+    }
+    .swiper-pagination-bullet {
+      font-weight: 600;
+      font-size: rem(22);
+      color: #fff;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      transition: gap 0.8s ease 0s;
+      display: flex;
+      gap: 0px;
+      align-items: center;
+      &::after {
+        content: "";
+        width: 0px;
+        transition: all 0.8s ease 0s;
+        background-color: #dcca87;
+        flex: 0 0 0px;
+        height: 1px;
+      }
+    }
+    .swiper-pagination-bullet-active {
+      gap: 8px;
+      &::after {
+        content: "";
+        width: 16px;
+        flex: 0 0 16px;
+      }
+    }
   }
 }
+
 
 .slide-main-slider {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  //padding: 25px 0 0 0;
-  //opacity: 0 !important;
-  //pointer-events: none;
+  padding: 25px 0 0 0;
+  opacity: 0 !important;
+  pointer-events: none;
 
-  //&.swiper-slide-active {
-  //  pointer-events: auto;
-  //  opacity: 1 !important;
-  //}
+  &.swiper-slide-active {
+    pointer-events: auto;
+    opacity: 1 !important;
+  }
 
   // .slide-main-slider__content
   &__content {
@@ -75,8 +130,10 @@
     max-width: rem(500);
     justify-items: start;
   }
+
   //.slide-main-slider__header
-  &__header {}
+  &__header {
+  }
 
   // .slide-main-slider__text
   &__text {
@@ -86,54 +143,59 @@
   &__button {
   }
 
-  // .slide-main-slider__image-ibg
-//  &__image-ibg {
-//    margin-right: percent(25, 650);
-//    position: relative;
-//    max-height: 736px;
-//    height: 100%;
-//    align-self: center;
-//    &::before,
-//    &::after {
-//      content: "";
-//      position: absolute;
-//      background-color: $mainYellow;
-//      transition: transform 0.3s ease 0s;
-//      width: percent(435, 619);
-//      height: percent(435, 688);
-//    }
-//  //  &::before {
-//  //    top: 0;
-//  //    right: 0;
-//  //    transform: translate(25px, -25px);
-//  //  }
-//  //  &::after {
-//  //    bottom: 0;
-//  //    left: 0;
-//  //    transform: translate(-25px, 25px);
-//  //  }
-//  //  img {
-//  //    transition: transform 0.3s ease 0s;
-//  //    z-index: 2;
-//  //  }
-//  @media (any-hover: hover) {
-//    &:hover {
-//      &::before {
-//        transform: translate(30px, -30px);
-//      }
-//
-//      &::after {
-//        transform: translate(-30px, 30px);
-//      }
-//
-//      img {
-//        transform: scale(1.05);
-//      }
-//    }
-//  }
-//}
+  &__image-ibg {
+    margin-right: percent(25, 650);
+    position: relative;
+    max-height: 736px;
+    height: 100%;
+    align-self: center;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: $mainYellow;
+      transition: transform 0.3s ease 0s;
+      width: percent(435, 619);
+      height: percent(435, 688);
+    }
+
+    &::before {
+      top: 0;
+      right: 0;
+      transform: translate(25px, -25px);
+    }
+
+    &::after {
+      bottom: 0;
+      left: 0;
+      transform: translate(-25px, 25px);
+    }
+
+    img {
+      transition: transform 0.3s ease 0s;
+      z-index: 2;
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        &::before {
+          transform: translate(30px, -30px);
+        }
+
+        &::after {
+          transform: translate(-30px, 30px);
+        }
+
+        img {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
 
 }
+
 .block-header {
   // .block-header__sub-title
   &__sub-title {
@@ -145,29 +207,32 @@
 }
 
 .menu-main-slider {
-  position: absolute;
-  left: rem(15);
-  top: 0;
   display: flex;
   gap: rem(40);
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  left: rem(15);
+  @media (min-width: em(1445)) {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   // .menu-main-slider__link
   &__link {
     font-size: rem(18);
     line-height: 175%;
     letter-spacing: 0.04em;
     color: $mainWhite;
-    transform: rotate(-180deg);
-    writing-mode: vertical-lr;
+    @media (min-width: em(1445)) {
+      transform: rotate(-180deg);
+      writing-mode: vertical-lr;
+    }
     @media (any-hover: hover) {
       &:hover {
         color: $mainYellow;
       }
     }
-
     &_current {
       color: $mainYellow;
     }
