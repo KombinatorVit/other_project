@@ -1,17 +1,19 @@
-[class*=-ibg] {
-  position: relative;
-}
-[class*=-ibg] img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 9 |     background-color: $mainYellow;
+ *   |                       ^^^^^^^^^^^
+ *   '
+ *   base/forms/button.scss 9:20  @import
+ *   base/forms/forms.scss 21:9   @import
+ *   base.scss 3:9                root stylesheet */
 
-[class*=-ibg_contain] img {
-  object-fit: contain;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      background-color: $mainYellow;\d\a   \2502                        ^^^^^^^^^^^\a   \2575 \a   base/forms/button.scss 9:20  @import\a   base/forms/forms.scss 21:9   @import\a   base.scss 3:9                root stylesheet";
 }
-
-/*# sourceMappingURL=base.css.map */

@@ -1,4 +1,4 @@
-// Класс масок для полей ввода
+// Класс масок для полей ввода (в работе)
 export class InputMask {
 	constructor(props, data = null) {
 		let defaultConfig = {

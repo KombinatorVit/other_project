@@ -32,8 +32,10 @@ export let gotoBlock = (targetBlock, noHeader = false, speed = 500, offset = 0) 
 			new SmoothScroll().animateScroll(targetBlockElement, '', options);
 		} else {
 			// Прокрутка стандартными средствами
+			let targetBlockElementPosition = targetBlockElement.getBoundingClientRect().top + scrollY;
+			// дописать!
 			window.scrollTo({
-				top: headerItemHeight ? targetBlockElement.getBoundingClientRect().top - headerItemHeight : targetBlockElement.getBoundingClientRect().top,
+				top: headerItemHeight ? targetBlockElementPosition - headerItemHeight : targetBlockElementPosition,
 				behavior: "smooth"
 			});
 		}

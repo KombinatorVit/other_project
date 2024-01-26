@@ -5,18 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update project Gericht">
+      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/about/G.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/about/knives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/img/wave-element.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/js/files/forms/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/js/libs/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/scss/base/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/scss/base/popup.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/scss/base/popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_head.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_header.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/scroll/gotoblock.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/scroll/gotoblock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/libs/inputmask.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/libs/inputmask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/libs/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/libs/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/libs/watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/libs/watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/fullscreen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/fullscreen.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/null.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/null.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +84,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/Gericht/src/img",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/Gericht/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Gericht/src" />
       <recent name="$PROJECT_DIR$/Gericht/src/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/project-freelance/_1/24" />
       <recent name="$PROJECT_DIR$/project-freelance/_1" />
-      <recent name="$PROJECT_DIR$/di-gi/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/party" />
@@ -185,7 +212,7 @@
       <workItem from="1705492956595" duration="30834000" />
       <workItem from="1706010553060" duration="498000" />
       <workItem from="1706011072028" duration="26000" />
-      <workItem from="1706011112976" duration="50396000" />
+      <workItem from="1706011112976" duration="54612000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -530,7 +557,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

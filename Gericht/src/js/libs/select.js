@@ -101,24 +101,23 @@ export class SelectConstructor {
 		selectItems.forEach((originalSelect, index) => {
 			this.selectInit(originalSelect, index + 1);
 		});
-		const _this = this;
 		// Обработчики событий...
 		// ...при клике
 		document.addEventListener('click', function (e) {
-			_this.selectsActions(e);
-		});
+			this.selectsActions(e);
+		}.bind(this));
 		// ...при нажатии клавиши
 		document.addEventListener('keydown', function (e) {
-			_this.selectsActions(e);
-		});
+			this.selectsActions(e);
+		}.bind(this));
 		// ...при фокусе
 		document.addEventListener('focusin', function (e) {
-			_this.selectsActions(e);
-		});
+			this.selectsActions(e);
+		}.bind(this));
 		// ...при потере фокуса
 		document.addEventListener('focusout', function (e) {
-			_this.selectsActions(e);
-		});
+			this.selectsActions(e);
+		}.bind(this));
 	}
 	// Функция инициализации конкретного селекта
 	selectInit(originalSelect, index) {
