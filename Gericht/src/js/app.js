@@ -22,6 +22,7 @@ import "./libs/dynamic_adapt.js";
 /* Форматирование чисел */
 //import './libs/wNumb.min.js';
 
+
 // Основные модули ========================================================================================================================================================================================================================================================
 import * as flsFunctions from "./files/functions.js";
 
@@ -64,16 +65,16 @@ flsFunctions.fullVHfix();
 Сниппет (HTML): pl
 */
 // Для включения ??? (подсказок в консоли) передать true * /
-// flsFunctions.initPopups(false);
+flsFunctions.initPopups(false);
 
 // Работа с формами ========================================================================================================================================================================================================================================================
 import * as flsForms from "./files/forms/forms.js";
 
 /* Работа с полями формы: добавление классов, работа с placeholder. */
-// flsForms.formFieldsInit();
+flsForms.formFieldsInit();
 
 /* Oтправка формы со встроенной валидацией полей. false - отключит валидацию */
-// flsForms.formSubmit(true);
+flsForms.formSubmit(true);
 
 /* (В работе) Работа с масками. Для включения ??? (подсказок в консоли) передать true */
 // flsForms.formMasks(true);
@@ -88,7 +89,7 @@ import * as flsForms from "./files/forms/forms.js";
 // flsForms.formRating();
 
 /* Модуль работы с select. Для включения ??? (подсказок в консоли) передать true */
-// flsForms.formSelect(false);
+flsForms.formSelect(false);
 
 // Модуль работы с ползунком  ===================================================================================================================================================================================================================================================================================
 /*
@@ -126,7 +127,7 @@ import "./files/sliders.js";
 Документация плагина: https://github.com/Grsmto/simplebar/tree/master/packages/simplebar
 Сниппет(HTML): 
 */
-// import './files/scroll/simplebar.js';
+import './files/scroll/simplebar.js';
 
 /*
 Ленивая (отложенная) загрузка картинок
@@ -150,6 +151,10 @@ flsScroll.pageNavigation();
 
 // Функционал добавления классов к хедеру при прокрутке
 flsScroll.headerScroll();
+
+
+flsScroll.bgParallax();
+
 
 // Функционал липкого блока
 // flsScroll.stickyBlock();

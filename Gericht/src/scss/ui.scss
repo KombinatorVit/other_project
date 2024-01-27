@@ -3,13 +3,30 @@
 	overflow: hidden;
 	position: relative;
 }
+[data-decor] {
+	&::before {
+		content: "";
+		background: url("@img/main-decor.svg") 0 0 / 100% no-repeat;
+		width: rem(145);
+		height: rem(145);
+		animation: rotate 30s infinite linear;
+	}
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}
 .bg-item {
 	content: "";
 	position: absolute;
-	top: -10%;
+	top: -30%;
 	left: 0;
 	width: 100%;
-	height: 120%;
+	height: 160%;
 	background: url("@img/main-bg.jpg") center / cover no-repeat;
 }
 // Шапка блока
@@ -38,7 +55,7 @@
 	// .block-header__title
 	&__title {
 		font-weight: 600;
-		@include adaptiveValue("font-size", 64, 64);
+		@include adaptiveValue("font-size", 64, 35);
 		line-height: 130%;
 		letter-spacing: 0.04em;
 		color: $mainYellow;

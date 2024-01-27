@@ -6,7 +6,7 @@
 // @import "base/spollers";
 
 // Стили попапов
-// @import "base/popup";
+@import "base/popup";
 
 // Стили табов
 // @import "base/tabs";
@@ -16,6 +16,9 @@
 
 // Стили блока "показать еще"
 // @import "base/showmore";
+
+// Календарь
+@import "libs/datepicker";
 
 // Стили для полноэкранного блока
 @import "base/fullscreen";

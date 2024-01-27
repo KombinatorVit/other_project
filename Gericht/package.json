@@ -61,6 +61,7 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"js-datepicker": "^5.18.2",
 		"simplebar": "latest"
 	}
 }

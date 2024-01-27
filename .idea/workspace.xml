@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="update project Gericht and add new sections">
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="правки,Gericht">
+      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/menu/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/special/image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_head.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/select.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QjfPXZ9oxzxhINwemfkyfzhMDA" />
   <component name="ProjectLevelVcsManager">
@@ -177,7 +198,7 @@
       <workItem from="1705492956595" duration="30834000" />
       <workItem from="1706010553060" duration="498000" />
       <workItem from="1706011072028" duration="26000" />
-      <workItem from="1706011112976" duration="57323000" />
+      <workItem from="1706011112976" duration="63569000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -522,7 +543,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +562,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new sections" />
-    <MESSAGE value="add server project" />
     <MESSAGE value="finish  TEA project" />
     <MESSAGE value="oculus 1 path" />
     <MESSAGE value="clients sections add styles and js" />
@@ -566,6 +585,8 @@
     <MESSAGE value="update project" />
     <MESSAGE value="update project Gericht" />
     <MESSAGE value="update project Gericht and add new sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project Gericht and add new sections" />
+    <MESSAGE value="правки, была бага с header на мобилке" />
+    <MESSAGE value="правки,Gericht" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки,Gericht" />
   </component>
 </project>

@@ -21,6 +21,20 @@ textarea {
 	&._error {
 	}
 }
+.input-dark {
+	@extend %cuf;
+	border: 1px solid #f5efdb;
+	width: 100%;
+	height: 60px;
+	color: inherit;
+	font-size: rem(28);
+	background-color: transparent;
+	padding: 0px rem(16);
+	&._form-error {
+		border: 1px solid red;
+	}
+}
+
 textarea.input {
 	resize: none;
 	padding: 0px 0px;

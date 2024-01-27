@@ -8,7 +8,7 @@ import { SelectConstructor } from "../../libs/select.js";
 // Класс масок
 import { InputMask } from "../../libs/inputmask.js";
 // Функционал попапа
-// const popupItem = initPopups();
+const popupItem = initPopups();
 //==============================================================================================================================================================================================================================================================================================================================
 // Объект модулей форм для экспорта
 export const formsModules = {
@@ -168,7 +168,7 @@ export function formSubmit(validate) {
 	async function formSubmitAction(form, e) {
 		const error = validate ? formValidate.getErrors(form) : 0;
 		if (error === 0) {
-			const popup = form.dataset.popup;
+			const popup = form.dataset.popupMassage;
 			const ajax = form.hasAttribute('data-ajax');
 			//SendForm
 			if (ajax) {
@@ -187,7 +187,7 @@ export function formSubmit(validate) {
 					form.classList.remove('_sending');
 					if (popup) {
 						// Нужно подключить зависимость
-						popupItem.open(`#${popup}`);
+						popupItem.open(`${popup}`);
 					}
 					formValidate.formClean(form);
 				} else {
@@ -200,7 +200,7 @@ export function formSubmit(validate) {
 				e.preventDefault();
 				if (popup) {
 					// Нужно подключить зависимость
-					popupItem.open(`#${popup}`);
+					popupItem.open(`${popup}`);
 				}
 				formValidate.formClean(form);
 			}

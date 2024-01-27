@@ -6,11 +6,11 @@
 		&::before {
 			content: "";
 			top: 0;
-			height: 100%;
+			height: 14908px;
 			position: absolute;
-			right: 0;
-			width: 3132px;
-			transform: translate(10%, 0px);
+			right: 50%;
+			width: 1920px;
+			transform: translate(50%, 0px);
 			background: url("@img/wave-element.svg") 0 0 / 100% no-repeat;
 		}
 	}
@@ -363,5 +363,284 @@
 		@media (max-width: $mobile) {
 			display: none;
 		}
+	}
+}
+//========================================================================================================================================================
+.book {
+	position: relative;
+	@include adaptiveValue("padding-top", 150, 0);
+	@include adaptiveValue("padding-bottom", 150, 0);
+
+	// .book__container
+	&__container {
+		&[data-decor] {
+			&::before {
+				position: absolute;
+				right: rem(-150);
+				top: rem(-150);
+				@media (max-width: $pc) {
+					display: none;
+				}
+			}
+		}
+	}
+	// .book__body
+	&__body {
+		@media (min-width: em(1390)) {
+			margin: 0px rem(-32);
+		}
+		padding: 0px rem(32);
+		@include adaptiveValue("padding-top", 48, 40);
+		@include adaptiveValue("padding-bottom", 48, 40);
+		background: #0c0c0c;
+		border: 1px solid rgba(220, 202, 135, 0.2);
+		box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+		@media (max-width: $tablet) {
+			border-right: none;
+			border-left: none;
+			margin: 0px rem(-15);
+		}
+	}
+	// .book__header
+	&__header {
+	}
+	// .book__form
+	&__form {
+		text-align: center;
+	}
+	// .book__button
+	&__button {
+	}
+}
+.block-header {
+	// .block-header__sub-title
+	&__sub-title {
+	}
+	// .block-header__title
+	&__title {
+	}
+}
+.form-book {
+	// .form-book__lines
+	&__lines {
+		@include adaptiveValue("padding-top", 64, 20);
+		@include adaptiveValue("padding-bottom", 64, 20);
+		display: grid;
+		row-gap: 20px;
+		@media (min-width: $tablet) {
+			column-gap: 32px;
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+	// .form-book__line
+	&__line {
+	}
+	// .form-book__input
+	&__input {
+		position: relative;
+		&::before {
+			position: absolute;
+			right: rem(16);
+			top: rem(25);
+			font-size: rem(10);
+			transition: all 0.3s ease 0s;
+		}
+		&._form-focus {
+			&::before {
+				transform: rotate(-180deg);
+			}
+		}
+		.form__error {
+			color: red;
+			font-size: rem(15);
+			margin: 10px 0px 0px 0px;
+			@media (min-width: $tablet) {
+				position: absolute;
+				bottom: -25px;
+			}
+		}
+	}
+}
+//========================================================================================================================================================
+.menu-block {
+	overflow: hidden;
+	position: relative;
+	&__bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@media (max-width: $tablet) {
+			img {
+				opacity: 0.5;
+			}
+		}
+	}
+	// .menu-block__container
+	&__container {
+		// .menu-block__container_wide
+		&_wide {
+			position: relative;
+			&::before {
+				position: absolute;
+				left: 0;
+				top: 0;
+				@media (max-width: em(1024)) {
+					display: none;
+				}
+			}
+		}
+	}
+	// .menu-block__menu
+	&__menu {
+		@include adaptiveValue("padding-top", 260, 40);
+		@include adaptiveValue("padding-bottom", 260, 40);
+	}
+	// .menu-block__list
+	&__list {
+		display: grid;
+		@include adaptiveValue("gap", 65, 20);
+		@media (max-width: $tablet) {
+			justify-content: center;
+			text-align: center;
+		}
+	}
+	// .menu-block__item
+	&__item {
+	}
+	// .menu-block__link
+	&__link {
+		@extend %cuf;
+		font-weight: 600;
+		@include adaptiveValue("font-size", 64, 30);
+		color: #fff;
+		border-bottom: 1px solid;
+		line-height: 130%;
+		letter-spacing: 0.03em;
+		@media (any-hover: hover) {
+			&:hover {
+				border-bottom: 1px solid transparent;
+			}
+		}
+	}
+}
+//========================================================================================================================================================
+.special {
+	@include adaptiveValue("padding-top", 150, 40);
+	@include adaptiveValue("padding-bottom", 150, 40);
+	// .special__container
+	&__container {
+		display: grid;
+		@include adaptiveValue("gap", 65, 30);
+	}
+	// .special__header
+	&__header {
+	}
+	// .special__body
+	&__body {
+		display: grid;
+		gap: 32px;
+		align-items: start;
+		@media (min-width: $mobile) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media (max-width: $tablet) and (min-width: $mobile) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	&__button {
+		justify-self: center;
+	}
+
+	// .special__table
+	&__table {
+	}
+	// .special__image
+	&__image {
+		img {
+			max-width: 100%;
+		}
+		@media (max-width: $tablet) {
+			display: none;
+		}
+	}
+}
+.table-special {
+	// .table-special__title
+	&__title {
+		text-align: center;
+		color: #fff;
+		@extend %cuf;
+		font-weight: 600;
+		line-height: 130%;
+		@include adaptiveValue("font-size", 45, 35);
+		&:not(:last-child) {
+			margin-bottom: em(48, 45);
+		}
+	}
+	// .table-special__body
+	&__body {
+		display: grid;
+		@include adaptiveValue("gap", 40, 20);
+	}
+
+	// .table-special__item
+	&__item {
+		display: grid;
+		gap: 8px;
+	}
+	// .table-special__header
+	&__header {
+		display: grid;
+		grid-template-columns: 1fr 70px;
+		justify-content: space-between;
+		@include adaptiveValue("font-size", 23, 18);
+		> * {
+			z-index: 2;
+			position: relative;
+		}
+		@media (min-width: $mobileSmall) {
+			grid-template-columns: 225px 70px;
+			position: relative;
+			&::before {
+				content: "";
+				width: 100%;
+				height: 1px;
+				top: 10px;
+				left: 0;
+				position: absolute;
+				background-color: #fff;
+			}
+		}
+	}
+	// .table-special__value
+	&__value {
+		padding: 0px rem(10) 0px 0px;
+		line-height: 130%;
+		color: $mainDarkYellow;
+		@extend %cuf;
+		font-weight: 600;
+		@media (min-width: $mobileSmall) {
+			background-color: $mainDark;
+		}
+	}
+	// .table-special__price
+	&__price {
+		text-align: right;
+		color: #fff;
+		@extend %cuf;
+		padding: 0px 0 0px rem(10);
+
+		@media (min-width: $mobileSmall) {
+			background-color: $mainDark;
+		}
+	}
+	// .table-special__info
+	&__info {
+		line-height: 170%;
 	}
 }
