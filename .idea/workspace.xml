@@ -4,29 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="правки,Gericht">
-      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/menu/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gericht/src/img/mainpage/special/image.png" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="luxtrader add project">
+      <change afterPath="$PROJECT_DIR$/luxtrader/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/BravoRGRegular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/BravoRGRegular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/ceremonious_one.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/ceremonious_one.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/pfdintextcondpro-medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/pfdintextcondpro-medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/pfdintextcondpro-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/fonts/pfdintextcondpro-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/block-header/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/04.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/05.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/06.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/07.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/08.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/09.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/decor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/decor.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/decor_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/decor_header.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/decor_mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/04.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/05.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/06.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/07.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/08.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/categories/icons/09.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/callback.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/circle.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/eye.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/flag.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/globe.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/hand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/hand.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/menu/04.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/ok-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/ok-btn.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/p-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/p-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/rotate-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/rotate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/rotate.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/sl-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/sl-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/sl-arrow.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/icons/user.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/lots/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/main_slider/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/main_slider/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/quotes/mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/quotes/mark.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/01.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/02.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/img/services/03.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/js/vendors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luxtrader/js/vendors.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_head.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/html/_popup.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/forms/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/scroll/scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/js/files/sliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/base/forms/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/base/forms/select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Gericht/src/scss/ui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/candler/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +171,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/Gericht/src",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,9 +184,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Gericht/src" />
       <recent name="$PROJECT_DIR$/Gericht/src/img" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/project-freelance/_1/24" />
       <recent name="$PROJECT_DIR$/project-freelance/_1" />
     </key>
@@ -198,7 +299,9 @@
       <workItem from="1705492956595" duration="30834000" />
       <workItem from="1706010553060" duration="498000" />
       <workItem from="1706011072028" duration="26000" />
-      <workItem from="1706011112976" duration="63569000" />
+      <workItem from="1706011112976" duration="69141000" />
+      <workItem from="1706454643842" duration="82000" />
+      <workItem from="1706454747689" duration="3153000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -543,7 +646,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finish  TEA project" />
     <MESSAGE value="oculus 1 path" />
     <MESSAGE value="clients sections add styles and js" />
     <MESSAGE value="Oculus add sections" />
@@ -587,6 +689,7 @@
     <MESSAGE value="update project Gericht and add new sections" />
     <MESSAGE value="правки, была бага с header на мобилке" />
     <MESSAGE value="правки,Gericht" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки,Gericht" />
+    <MESSAGE value="luxtrader add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="luxtrader add project" />
   </component>
 </project>
