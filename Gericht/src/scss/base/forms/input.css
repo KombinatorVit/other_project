@@ -1,27 +1,18 @@
-input[type=text],
-input[type=email],
-input[type=tel],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=tel]:focus,
-textarea:focus {
-  outline: none;
-}
+/* Error: The target selector was not found.
+ * Use "@extend %cuf !optional" to avoid this error.
+ *    ,
+ * 25 |     @extend %cuf;
+ *    |     ^^^^^^^^^^^^
+ *    '
+ *   input.scss 25:2  root stylesheet */
 
-.input {
-  border-radius: 0 !important;
-  width: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  padding: 0px 20px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: The target selector was not found.\aUse "@extend %cuf !optional" to avoid this error.\a    \2577 \a 25 \2502      @extend %cuf;\d\a    \2502      ^^^^^^^^^^^^\a    \2575 \a   input.scss 25:2  root stylesheet';
 }
-textarea.input {
-  resize: none;
-  padding: 0px 0px;
-}
-
-/*# sourceMappingURL=input.css.map */

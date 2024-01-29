@@ -1,3 +1,5 @@
+import { gallery } from "./gallery.js";
+
 /*
 Документация по работе в шаблоне: 
 Документация слайдера: https://swiperjs.com/
@@ -8,7 +10,7 @@
 // При необходимости подключаем дополнительные модули слайдера, указывая их в {} через запятую
 // Пример: { Navigation, Autoplay }
 import Swiper from 'swiper';
-import {  Pagination,  EffectFade, Autoplay } from 'swiper/modules';
+import{  Pagination, EffectFade, Autoplay, FreeMode } from 'swiper/modules';
 /*
 Основниые модули слайдера:
 Navigation, Pagination, Autoplay, 
@@ -66,7 +68,9 @@ function initSliders() {
 			//simulateTouch: false,
 			loop: true,
 			preloadImages: false,
-
+			lazy: {
+				loadPrevNext: true,
+			},
 			// Dotts
 			pagination: {
 				el: '.body-main-slider__controll',
@@ -104,6 +108,58 @@ function initSliders() {
 				},
 			}
 		});
+	}
+	if (document.querySelector('.gallery__slider')) {
+		let gallerySlider = new Swiper('.gallery__slider', {
+			// Подключаем модули слайдера
+			// для конкретного случая
+			modules: [ Autoplay, FreeMode],
+			autoplay: {
+				delay: 3000,
+				stopOnLastSlide: false,
+				disableOnInteraction: false,
+			},
+			freeMode: {
+				enabled: true,
+			},
+			observer: true,
+			observeParents: true,
+			slidesPerView: "auto",
+			spaceBetween: 32,
+			autoHeight: false,
+			speed: 1000,
+			//touchRatio: 0,
+			//simulateTouch: false,
+			loop: true,
+			preloadImages: false,
+
+			// Arrows
+			/*
+			navigation: {
+				nextEl: '.about__more .more__item_next',
+				prevEl: '.about__more .more__item_prev',
+			},
+			*/
+			breakpoints: {
+			},
+			on: {
+				slideChange: function (swiper) {
+
+				}
+			}
+		});
+		function gallerySliderFix() {
+			const galleryContainer = document.querySelector('.gallery__container');
+			const diff = (window.innerWidth - galleryContainer.offsetWidth) / 2;
+			if (diff > 0) {
+				document.querySelector('.gallery__slider').style.width = document.querySelector('.gallery__body').offsetWidth + diff + 15 + 'px';
+			} else {
+				document.querySelector('.gallery__slider').style.width = document.querySelector('.gallery__body').offsetWidth + 15 + 'px';
+			}
+		}
+		window.addEventListener("resize", gallerySliderFix);
+		gallerySliderFix();
+		gallerySlider.update();
 	}
 }
 // Скролл на базе слайдера (по классу swiper_scroll для оболочки слайдера)

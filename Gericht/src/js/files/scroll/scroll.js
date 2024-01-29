@@ -164,14 +164,15 @@ export function bgParallax() {
 				let bgItemBg = bgItem.querySelector('.bg-item');
 				let bgItemScrollPrc = Math.abs((bgItem.getBoundingClientRect().top - window.innerHeight) / (bgItemHeight + window.innerHeight) * 100);
 				let bgItemPositionValue = (bgItemHeight / 100 * 30) / 100 * bgItemScrollPrc;
-				if (scrollY > bgItemPosition - window.innerHeight && scrollY < bgItemPosition + bgItemHeight) {
-					bgItemBg.style.cssText = `transform: translate3D(0,${bgItemPositionValue}px,0);`;
+				if (bgItemBg) {
+					if (scrollY > bgItemPosition - window.innerHeight && scrollY < bgItemPosition + bgItemHeight) {
+						bgItemBg.style.cssText = `transform: translate3D(0,${bgItemPositionValue}px,0);`;
+					}
 				}
 			});
 		});
 	}
 }
-
 
 // При подключении модуля обработчик события запустится автоматически
 setTimeout(() => {

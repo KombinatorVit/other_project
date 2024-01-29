@@ -39,7 +39,6 @@ export let gotoBlock = (targetBlock, noHeader = false, speed = 500, offset = 0) 
 				behavior: "smooth"
 			});
 		}
-
 	} else {
 		console.log(`[gotoBlock]: Такого блока нет на странице: ${targetBlock}`);
 	}
