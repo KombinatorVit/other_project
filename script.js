@@ -1,25 +1,34 @@
-"use strict"
 
 
-const INTERVAL = 500
-let counter = 0
-const MAX_VALUE = 10
-let timer = null
+const dep = 12000
+const persent = 0.07;
+const mount = 24;
 
-const event = () => {
 
-    if (counter === MAX_VALUE) {
-        console.log('THE END')
-        clearTimeout(timer)
-        return
-    }
-    console.dir({counter, date: Date.now()})
-    counter++
+const result =( dep * (1 + persent/12)  **mount).toFixed(1)
+let purchaseRemainder;
+console.log(result)
+if(result > 13500){
+    console.log('Больше 13500')
+    purchaseRemainder = (result - 13500).toFixed(1)
+    console.log(purchaseRemainder)
+}else{
+    console.log('Меньше 13500')
 }
 
-console.log('Begin')
-timer = setInterval(event, INTERVAL)
+let usersNum = prompt('Количество пользователей')
 
 
-
-let num = 4;
+switch (usersNum){
+    case '17':
+        console.log('Больше 0')
+        break
+    case '22':
+        console.log('Больше 1')
+        break
+    case 'Not':
+        console.log('Больше 2')
+        break
+    default:
+        console.log('Не верно')
+}
