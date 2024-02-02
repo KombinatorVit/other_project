@@ -1,10 +1,22 @@
 .advantages {
     padding: 70px 0 80px 0;
     background-color: #f6f6f6;
+
+    @media (max-width: 768px){
+        padding: 40px 0 30px 0;
+
+    }
     &__wrapper {
         margin-top: 65px;
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: 768px){
+            justify-content: center;
+            margin-top: 35px;
+
+            flex-wrap: wrap;
+        }
     }
     &__item {
         display: flex;

@@ -16,19 +16,3 @@ if(result > 13500){
     console.log('Меньше 13500')
 }
 
-let usersNum = prompt('Количество пользователей')
-
-
-switch (usersNum){
-    case '17':
-        console.log('Больше 0')
-        break
-    case '22':
-        console.log('Больше 1')
-        break
-    case 'Not':
-        console.log('Больше 2')
-        break
-    default:
-        console.log('Не верно')
-}
