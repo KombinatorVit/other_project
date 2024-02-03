@@ -1,0 +1,98 @@
+.carousel {
+  padding: 81px 0;
+
+  &__inner {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto;
+
+    @media (max-width: 775px) {
+      width: 100%;
+      padding: 40px 0;
+
+    }
+
+    @media (max-width: 555px) {
+      padding: 20px 0;
+
+    }
+
+  }
+
+
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    border: none;
+    background-color: #fff;
+
+    img {
+      width: 31px;
+      height: 50px;
+    }
+  }
+
+  .slick-next {
+    right: -66px;
+    left: auto;
+  }
+
+}
+
+.slick-slide {
+  img {
+    width: 100%;
+  }
+}
+
+
+/* Стили для контейнера точек */
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* Регулируйте отступ в зависимости от дизайна */
+}
+
+/* Стили для каждой точки */
+.slick-dots li {
+  margin: 0 5px; /* Регулируйте отступ между точками */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; /* Размер точек */
+  height: 20px;
+  border-radius: 50%; /* Делает точку круглой */
+  background-color: #fff; /* Цвет фона точек */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+
+}
+
+/* Стили для кнопок (точек) */
+.slick-dots button {
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px; /* Размер шрифта точек */
+  background-color: #ddd; /* Цвет фона точек */
+  border: none;
+  border-radius: 50%; /* Делает точку круглой */
+  width: 20px; /* Размер точек */
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Стили для активной точки */
+.slick-dots .slick-active button {
+  background-color: #f11f1f; /* Цвет активной точки */
+  color: #fff; /* Цвет текста активной точки */
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -194,6 +195,20 @@
     font-size: 10px;
   }
 }
+.button_submit {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+}
+@media (max-width: 400px) {
+  .button_submit {
+    font-size: 14px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+  }
+}
 
 .advantages {
   padding: 70px 0 80px 0;
@@ -245,6 +260,168 @@
   font-size: 30px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+}
+.title_left {
+  text-align: left;
+  font-size: 36px;
+  line-height: 150%;
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .title_left {
+    font-size: 26px;
+  }
+}
+@media (max-width: 660px) {
+  .title_left {
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  .title_left {
+    font-size: 20px;
+  }
+}
+
+.consultation {
+  min-height: 680px;
+  padding: 102px 0 108px 0;
+  background: url(../img/consultation.jpg) top center/cover no-repeat;
+}
+@media (max-width: 440px) {
+  .consultation {
+    padding: 50px 0 50px 0;
+    min-height: 400px;
+  }
+}
+.consultation__descr {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+}
+@media (max-width: 660px) {
+  .consultation__descr {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.feed-form input {
+  height: 50px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4B4B4B;
+}
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
+}
+.feed-form_mt25 {
+  margin-top: 25px;
+}
+@media (max-width: 660px) {
+  .feed-form {
+    width: 100%;
+  }
+}
+
+.carousel {
+  padding: 81px 0;
+}
+.carousel__inner {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+}
+@media (max-width: 775px) {
+  .carousel__inner {
+    width: 100%;
+    padding: 40px 0;
+  }
+}
+@media (max-width: 555px) {
+  .carousel__inner {
+    padding: 20px 0;
+  }
+}
+.carousel .slick-prev, .carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #fff;
+}
+.carousel .slick-prev img, .carousel .slick-next img {
+  width: 31px;
+  height: 50px;
+}
+.carousel .slick-next {
+  right: -66px;
+  left: auto;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+/* Стили для контейнера точек */
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* Регулируйте отступ в зависимости от дизайна */
+}
+
+/* Стили для каждой точки */
+.slick-dots li {
+  margin: 0 5px; /* Регулируйте отступ между точками */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; /* Размер точек */
+  height: 20px;
+  border-radius: 50%; /* Делает точку круглой */
+  background-color: #fff; /* Цвет фона точек */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+}
+
+/* Стили для кнопок (точек) */
+.slick-dots button {
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px; /* Размер шрифта точек */
+  background-color: #ddd; /* Цвет фона точек */
+  border: none;
+  border-radius: 50%; /* Делает точку круглой */
+  width: 20px; /* Размер точек */
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Стили для активной точки */
+.slick-dots .slick-active button {
+  background-color: #f11f1f; /* Цвет активной точки */
+  color: #fff; /* Цвет текста активной точки */
 }
 
 /*# sourceMappingURL=style.css.map */
