@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="new project and update old project">
-      <change afterPath="$PROJECT_DIR$/Pulse/src/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_consultation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_forms.scss" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment=" update old project">
+      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_catalog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/base/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/sass/blocks/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/sass/blocks/_titles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_titles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeone/#source/js/jq-start.js" beforeDir="false" afterPath="$PROJECT_DIR$/primeone/#source/js/jq-start.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,27 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka/Pulse/src/css",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vitalijonisenko/Desktop/slon/learn_verctka/Pulse/src/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Pulse/src/css" />
@@ -219,7 +215,8 @@
       <workItem from="1706712572715" duration="3811000" />
       <workItem from="1706809886908" duration="3661000" />
       <workItem from="1706820241380" duration="9794000" />
-      <workItem from="1706905330288" duration="23703000" />
+      <workItem from="1706905330288" duration="33919000" />
+      <workItem from="1707045638568" duration="5126000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -564,7 +561,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +580,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new slider and dots" />
     <MESSAGE value="add new marketing project" />
     <MESSAGE value="add new marketing section&#10;add travel project" />
     <MESSAGE value="add new marketing section" />
@@ -608,6 +604,7 @@
     <MESSAGE value="Gericht add new sections" />
     <MESSAGE value="update" />
     <MESSAGE value="new project and update old project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project and update old project" />
+    <MESSAGE value=" update old project" />
+    <option name="LAST_COMMIT_MESSAGE" value=" update old project" />
   </component>
 </project>
