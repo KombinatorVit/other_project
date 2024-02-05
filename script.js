@@ -1,5 +1,6 @@
 
 
+
 const dep = 12000
 const persent = 0.07;
 const mount = 24;
