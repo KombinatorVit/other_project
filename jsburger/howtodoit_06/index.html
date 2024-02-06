@@ -16,35 +16,52 @@
 	<!-- Отображаемое тело страницы -->
 	<body>
 		<!-- Оболочка для демонстрации -->
-		<div class="wrapper">
-			<!-- Контент -->
-			<div class="block one">
-				<div class="block__item">
-					<div class="block__title">Заголовок №1</div>
-					<div class="block__text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
-						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
-					</div>
-				</div>
-				<div class="block__item">
-					<div class="block__title">Заголовок №2</div>
-					<div class="block__text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
-						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
-					</div>
-				</div>
-				<div class="block__item">
-					<div class="block__title">Заголовок №3</div>
-					<div class="block__text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, 
-						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.
-					</div>
-				</div>
+<!--		<div class="wrapper">-->
+<!--			&lt;!&ndash; Контент &ndash;&gt;-->
+<!--			<div class="block one">-->
+<!--				<div class="block__item">-->
+<!--					<div class="block__title">Заголовок №1</div>-->
+<!--					<div class="block__text">-->
+<!--						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, -->
+<!--						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="block__item">-->
+<!--					<div class="block__title">Заголовок №2</div>-->
+<!--					<div class="block__text">-->
+<!--						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, -->
+<!--						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="block__item">-->
+<!--					<div class="block__title">Заголовок №3</div>-->
+<!--					<div class="block__text">-->
+<!--						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi, quos dignissimos mollitia ad in, -->
+<!--						non eius quas totam hic enim, commodi fugiat quod sit tempora, dolorum suscipit. Corrupti, quos.-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			&lt;!&ndash; Подключаем jQuery &ndash;&gt;-->
+<!--			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<!--			&lt;!&ndash; Подключаем файл JS скриптов &ndash;&gt;-->
+<!--			<script src="js/script.js"></script>-->
+
+
+
+<!--		</div>-->
+
+
+
+		<div class="phone-input-container">
+			<div class="country-code-dropdown">
+				<span class="country-flag"><img src="path_to_flag_image.png" alt="Flag"></span>
+				<select name="country_code" id="country_code">
+					<!-- Значения option должны быть заменены на реальные коды стран -->
+					<option value="+56" selected>+56</option>
+				</select>
 			</div>
-			<!-- Подключаем jQuery -->
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-			<!-- Подключаем файл JS скриптов -->
-			<script src="js/script.js"></script>
+			<input type="text" id="phone_number" placeholder="Numero">
 		</div>
+
 	</body>
 </html>

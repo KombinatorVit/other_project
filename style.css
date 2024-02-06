@@ -1,31 +1,66 @@
-h1 {
-    text-align: right;
+.form-mainSite__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden; /* Добавляем, чтобы содержимое не выходило за границы блока */
 }
 
-h2 {
-    width: 300px;
-    text-align: center;
+.country-code-dropdown {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
 }
 
-table {
-    width: 500px;
+.country-flag img {
+    width: 20px; /* Установите желаемые размеры для изображения флага */
+    height: auto;
 }
 
-th {
-    text-align: left;
+#country_code {
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer; /* Добавляем указатель курсора для лучшей интерактивности */
 }
 
-td {
-    text-align: center;
-
+#country_code:focus {
+    outline: none;
 }
 
-p {
-    text-indent: 50px;
-    text-align: justify;
-    width: 400px;
+.form-mainSite__input input[type="text"] {
+    border: none;
+    padding: 10px 5px;
+    flex-grow: 1;
+    font-size: 16px; /* Устанавливаем размер шрифта для текста */
 }
 
-li > b{
-    color: red
+.form-mainSite__input input[type="text"]::placeholder {
+    text-align: center; /* Центрируем плейсхолдер */
+}
+
+.form-mainSite__input input[type="text"]:focus {
+    outline: none;
+}
+
+/* Эти стили добавляют небольшой отступ слева от текстового поля, чтобы текст не перекрывал иконку */
+.form-mainSite__input input[type="text"] {
+    padding-left: 36px; /* Вы можете увеличить это значение, если иконка больше */
+}
+
+/* Стили для корректировки позиции флага, чтобы он не занимал много места */
+.country-flag {
+    position: absolute;
+    margin-left: 10px; /* Расстояние от левого края контейнера до флага */
+}
+
+/* Добавляем относительное позиционирование для контейнера, чтобы абсолютное позиционирование флага работало корректно */
+.form-mainSite__input {
+    position: relative;
 }

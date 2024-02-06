@@ -62,3 +62,49 @@ html,body{
 	display: none;
 	padding: 10px 0px 0px 0px;
 }
+
+.phone-input-container {
+	display: flex;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.country-code-dropdown {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #ccc;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.country-flag img {
+	width: 20px;
+	height: auto;
+}
+
+#country_code {
+	border: none;
+	padding: 5px;
+	margin-left: 5px;
+	background-color: transparent;
+	-webkit-appearance: none; /* Убрать стандартный вид для Safari */
+	-moz-appearance: none;    /* Убрать стандартный вид для Firefox */
+	appearance: none;         /* Убрать стандартный вид для остальных браузеров */
+}
+
+#country_code:focus {
+	outline: none;
+}
+
+#phone_number {
+	border: none;
+	padding: 5px;
+	flex-grow: 1;
+}
+
+#phone_number:focus {
+	outline: none;
+}
