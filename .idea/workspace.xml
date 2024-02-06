@@ -4,293 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="pulse adaptive and new sections">
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_reviews.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/howtodoit_06/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/howtodoit_06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/howtodoit_06/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsburger/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/ftp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/gitignore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/js-dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/reset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/sprite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/gulp-tasks/zip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/config/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/snnipets.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/components/sendmail/sendmail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_common.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_footer.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_head.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_header.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_js.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_pagging.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_popup.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/html/_preloader.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/s-inst.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/s-medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/s-tiktok.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/s-tw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/iconfont/slider-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/about/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/about/icons/01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/about/icons/02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/about/icons/03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/about/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/bg-button.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/contacts/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/contacts/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/footer-decor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/gallery/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/gallery/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/gallery/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/gallery/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/gold-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/hero/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/hero/pets/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/icons/quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/icons/review.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/icons/star-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/icons/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/products/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/products/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/services/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/img/services/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/forms/datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/forms/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/forms/inputmask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/forms/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/scroll/gotoblock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/scroll/lazyload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/scroll/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/scroll/simplebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/sliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/files/tippy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/beforeafter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/datepicker-full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/dynamic_adapt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/fullpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/parallax-mouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/smoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/typed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/wNumb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/libs/watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/js/react/Index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/beforeafter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/colors-palette.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/cursor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/cursor.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/cursor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/checkbox.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/checkbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/datepicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/quantity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/quantity.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/quantity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/radio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/radio.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/range.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/range.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/rating.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/rating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/select.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/forms/select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/fullpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/fullpage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/fullscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/fullscreen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/maps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/maps.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/maps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/mixins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/mixins.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/null.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/null.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/pagging.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/pagging.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/pagging.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/popup.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/ripple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/ripple.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/ripple.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/showmore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/showmore.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/showmore.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/spollers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/spollers.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/spollers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/sticky.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/sticky.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/sticky.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/swiper.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/tabs.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/base/tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/fonts.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/icons.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/fonts/icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/_lg-fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/_lg-mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/_lg-theme-default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/_lg-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-autoplay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-autoplay.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-autoplay.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-comments.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-comments.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-fullscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-fullscreen.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-fullscreen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-medium-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-medium-zoom.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-medium-zoom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-pager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-pager.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-pager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-relative-caption.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-relative-caption.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-relative-caption.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-rotate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-rotate.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-rotate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-share.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-share.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-share.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-thumbnail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-thumbnail.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-thumbnail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-transitions.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-video.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-zoom.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lg-zoom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-bundle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-bundle.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-bundle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-core.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery-core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/lightgallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-lollipop-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-lollipop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-rotate-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-rotate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-scale-up.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-circular-vertical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-circular.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-cross-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-cross.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-only-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-only-y-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-only-y.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-only.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-ver-cross-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-ver-cross.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-ver-rev.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew-ver.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-skew.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-vertical-growth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-slide-vertical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-soft-zoom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-tube.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-in-big.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-in-out.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-in.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-out-big.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-out-in.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/gallery/transitions/_lg-zoom-out.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/swiper.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/tippy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/tippy.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/libs/tippy.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildkingdom/src/scss/style.scss" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add popap">
+      <change afterPath="$PROJECT_DIR$/jsburger/adapvivproperty/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsburger/adapvivproperty/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsburger/adapvivproperty/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/blocks/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/blocks/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pulse/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Pulse/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -491,7 +209,7 @@
       <workItem from="1706809886908" duration="3661000" />
       <workItem from="1706820241380" duration="9794000" />
       <workItem from="1706905330288" duration="33919000" />
-      <workItem from="1707045638568" duration="18375000" />
+      <workItem from="1707045638568" duration="21506000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -836,7 +554,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new marketing section&#10;add travel project" />
     <MESSAGE value="add new marketing section" />
     <MESSAGE value="add new candler section/ add new landing project" />
     <MESSAGE value="Candler add new sections" />
@@ -880,6 +597,7 @@
     <MESSAGE value="new project and update old project" />
     <MESSAGE value=" update old project" />
     <MESSAGE value="pulse adaptive and new sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="pulse adaptive and new sections" />
+    <MESSAGE value="add popap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add popap" />
   </component>
 </project>
