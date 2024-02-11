@@ -4,14 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add adapt value">
-      <change afterPath="$PROJECT_DIR$/jsburger/adapvivproperty/css/style.css.map" afterDir="false" />
+    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add growfy">
+      <change beforePath="$PROJECT_DIR$/.idea/learn_verctka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsburger/howtodoit_06/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_06/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsburger/howtodoit_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_06/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-freelance/_1/Lesson_18/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/di-gi/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Behance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Dribble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Instargam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/LinkedIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodoit_19/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodoit_19/img/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/img/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodoit_19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodoit_19/js/popups.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/js/popups.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +81,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vitalijonisenko/Desktop/slon/learn_verctka/jsburger&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vitalijonisenko/Desktop/slon/learn_verctka&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -68,18 +94,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jsburger" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jsburger" />
       <recent name="$PROJECT_DIR$/Pulse/src/css" />
       <recent name="$PROJECT_DIR$/Pulse/src" />
       <recent name="$PROJECT_DIR$/Gericht" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jsburger" />
       <recent name="$PROJECT_DIR$/party" />
       <recent name="$PROJECT_DIR$/jquery/js" />
       <recent name="$PROJECT_DIR$/di-gi/fonts" />
       <recent name="$PROJECT_DIR$/tea_maket" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev (2)">
@@ -215,6 +241,10 @@
       <workItem from="1707045638568" duration="22256000" />
       <workItem from="1707245966133" duration="755000" />
       <workItem from="1707250663225" duration="2217000" />
+      <workItem from="1707254231573" duration="259000" />
+      <workItem from="1707335143823" duration="1794000" />
+      <workItem from="1707430038840" duration="3000" />
+      <workItem from="1707657545421" duration="16973000" />
     </task>
     <task id="LOCAL-00006" summary="add new projects">
       <created>1687003535885</created>
@@ -559,7 +589,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705438692525</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,8 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new candler section/ add new landing project" />
-    <MESSAGE value="Candler add new sections" />
     <MESSAGE value="Candler add new sections and new project Panto" />
     <MESSAGE value="finish candler project and start viking" />
     <MESSAGE value="Desire project add new sections" />
@@ -603,6 +631,8 @@
     <MESSAGE value="pulse adaptive and new sections" />
     <MESSAGE value="add popap" />
     <MESSAGE value="add adapt value" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adapt value" />
+    <MESSAGE value="add ecocabins" />
+    <MESSAGE value="add growfy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add growfy" />
   </component>
 </project>
