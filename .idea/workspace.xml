@@ -4,635 +4,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="add growfy">
-      <change beforePath="$PROJECT_DIR$/.idea/learn_verctka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7166485f-1cfb-439e-a571-58e3729e8c6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_pagging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/_popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/fonts/Gilroy-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/fonts/Gilroy-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/fonts/Gilroy-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/fonts/Gilroy-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/advantages/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/advantages/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/advantages/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/advantages/04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/furniture/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/icons/p-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/icons/p-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/main-slider/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/main-slider/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/main-slider/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/products/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/rooms/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/rooms/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/rooms/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/tips/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/tips/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/img/tips/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/dynamic_adapt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/regular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/files/sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/datepicker-full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/inputmask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/lg-video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/lightgallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/livesearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/simplebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/smoothScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/tippy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/typed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/ui.datepicker-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/wNumb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/libs/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/js/vendors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/json/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/lightgallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/null.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/pagging.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/popover.min.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/tippy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/#src/scss/ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/howtouse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funiro/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/di-gi/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/di-gi/scss/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero-mobile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/header/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/icons/nav-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/portfolio/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/services/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Behance.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Dribble.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/Instargam.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/img/socials/LinkedIn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freelancer-cv-kelvin/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodoit_19/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodoit_19/img/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/img/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodoit_19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodoit_19/js/popups.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsburger/howtodoit_19/js/popups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lease-cars/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lease-cars/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/tea_maket/css/style.css" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2QjfPXZ9oxzxhINwemfkyfzhMDA" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2cjeoF2unIcB4GR235XYzYIpGDY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vitalijonisenko/Desktop/slon/learn_verctka&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/vitalijonisenko/Desktop/slon/learn_verctka",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/jsburger" />
-      <recent name="$PROJECT_DIR$/Pulse/src/css" />
-      <recent name="$PROJECT_DIR$/Pulse/src" />
-      <recent name="$PROJECT_DIR$/Gericht" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jsburger" />
-      <recent name="$PROJECT_DIR$/party" />
-      <recent name="$PROJECT_DIR$/jquery/js" />
-      <recent name="$PROJECT_DIR$/di-gi/fonts" />
-      <recent name="$PROJECT_DIR$/tea_maket" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev (2)">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Gericht/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Результат верстки макета.Часть_1/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Gericht/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/internet-store/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/Pulse/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.dev (2)" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.test" />
-      </list>
-    </recent_temporary>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b41e2b7-0c78-4d0a-979f-e4cc26fe93dd" name="Changes" comment="" />
-      <created>1685871888849</created>
+      <changelist id="7166485f-1cfb-439e-a571-58e3729e8c6a" name="Changes" comment="" />
+      <created>1708629589262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685871888849</updated>
-      <workItem from="1685871892106" duration="1231000" />
-      <workItem from="1685874907105" duration="20983000" />
-      <workItem from="1685964653766" duration="15214000" />
-      <workItem from="1686057004461" duration="850000" />
-      <workItem from="1686064032288" duration="235000" />
-      <workItem from="1686078434909" duration="10409000" />
-      <workItem from="1686235225128" duration="9646000" />
-      <workItem from="1686314364493" duration="13608000" />
-      <workItem from="1686483425729" duration="4179000" />
-      <workItem from="1686558908831" duration="39000" />
-      <workItem from="1686562716464" duration="1829000" />
-      <workItem from="1686659109234" duration="2994000" />
-      <workItem from="1686844711311" duration="21404000" />
-      <workItem from="1687026261480" duration="24509000" />
-      <workItem from="1687161974567" duration="1169000" />
-      <workItem from="1687188288507" duration="2917000" />
-      <workItem from="1687357613412" duration="599000" />
-      <workItem from="1688030092746" duration="2955000" />
-      <workItem from="1688113733448" duration="1853000" />
-      <workItem from="1688200410770" duration="1384000" />
-      <workItem from="1689834784532" duration="804000" />
-      <workItem from="1698999472400" duration="688000" />
-      <workItem from="1699724251449" duration="27338000" />
-      <workItem from="1700314520119" duration="1000" />
-      <workItem from="1700557059530" duration="490000" />
-      <workItem from="1700568624640" duration="1240000" />
-      <workItem from="1700644818236" duration="588000" />
-      <workItem from="1700657214218" duration="15955000" />
-      <workItem from="1701029594091" duration="4498000" />
-      <workItem from="1701164401596" duration="5529000" />
-      <workItem from="1701271605547" duration="1764000" />
-      <workItem from="1701336038269" duration="99052000" />
-      <workItem from="1703015734039" duration="26450000" />
-      <workItem from="1703424482356" duration="56441000" />
-      <workItem from="1703875996997" duration="193000" />
-      <workItem from="1703878946105" duration="39706000" />
-      <workItem from="1704016853527" duration="7287000" />
-      <workItem from="1704123469299" duration="29037000" />
-      <workItem from="1704304224177" duration="30000" />
-      <workItem from="1704304258247" duration="35000" />
-      <workItem from="1704304309664" duration="2673000" />
-      <workItem from="1704317232200" duration="11537000" />
-      <workItem from="1704331943793" duration="1221000" />
-      <workItem from="1704357879310" duration="16962000" />
-      <workItem from="1704388039690" duration="28909000" />
-      <workItem from="1704486509447" duration="24930000" />
-      <workItem from="1704557827734" duration="42614000" />
-      <workItem from="1704639282806" duration="83524000" />
-      <workItem from="1705063630200" duration="45483000" />
-      <workItem from="1705175457651" duration="54434000" />
-      <workItem from="1705406505053" duration="8587000" />
-      <workItem from="1705492956595" duration="30834000" />
-      <workItem from="1706010553060" duration="498000" />
-      <workItem from="1706011072028" duration="26000" />
-      <workItem from="1706011112976" duration="69141000" />
-      <workItem from="1706454643842" duration="82000" />
-      <workItem from="1706454747689" duration="17099000" />
-      <workItem from="1706712572715" duration="3811000" />
-      <workItem from="1706809886908" duration="3661000" />
-      <workItem from="1706820241380" duration="9794000" />
-      <workItem from="1706905330288" duration="33919000" />
-      <workItem from="1707045638568" duration="22256000" />
-      <workItem from="1707245966133" duration="755000" />
-      <workItem from="1707250663225" duration="2217000" />
-      <workItem from="1707254231573" duration="259000" />
-      <workItem from="1707335143823" duration="1794000" />
-      <workItem from="1707430038840" duration="3000" />
-      <workItem from="1707657545421" duration="16973000" />
+      <updated>1708629589262</updated>
+      <workItem from="1708629592084" duration="1394000" />
     </task>
-    <task id="LOCAL-00006" summary="add new projects">
-      <created>1687003535885</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1687003535885</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add new projects">
-      <created>1687100126503</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1687100126503</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add new projects">
-      <created>1687191689326</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1687191689326</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add new projects">
-      <created>1688032093083</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688032093083</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add new projects">
-      <created>1700066408296</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1700066408296</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add new projects">
-      <created>1700763874175</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1700763874175</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add new projects">
-      <created>1700933932421</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1700933932421</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update block">
-      <created>1701032734915</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1701032734915</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update block">
-      <created>1701336106219</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1701336106219</updated>
-    </task>
-    <task id="LOCAL-00015" summary="iphone finish">
-      <created>1701352055184</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701352055184</updated>
-    </task>
-    <task id="LOCAL-00016" summary="start new projects">
-      <created>1701446941131</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1701446941131</updated>
-    </task>
-    <task id="LOCAL-00017" summary="start new projects">
-      <created>1701540132611</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1701540132611</updated>
-    </task>
-    <task id="LOCAL-00018" summary="start new projects">
-      <created>1701719799924</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1701719799924</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update">
-      <created>1701813230694</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1701813230694</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add auto project">
-      <created>1703016262303</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1703016262303</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update project">
-      <created>1703092587055</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1703092587056</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update project">
-      <created>1703191036983</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1703191036983</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update project">
-      <created>1703451447412</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1703451447413</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update project">
-      <created>1703682163930</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1703682163930</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update project and add Fitness project">
-      <created>1703697766003</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1703697766003</updated>
-    </task>
-    <task id="LOCAL-00026" summary="update project and worked tea project">
-      <created>1703859851398</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1703859851398</updated>
-    </task>
-    <task id="LOCAL-00027" summary="upgrade valmari project">
-      <created>1703879084245</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1703879084246</updated>
-    </task>
-    <task id="LOCAL-00028" summary="tea maket fixed and new sections">
-      <created>1703884175215</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1703884175215</updated>
-    </task>
-    <task id="LOCAL-00029" summary="tea maket fixed and new sections">
-      <created>1703959634853</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1703959634853</updated>
-    </task>
-    <task id="LOCAL-00030" summary="tea maket fixed and new sections">
-      <created>1704123448006</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1704123448006</updated>
-    </task>
-    <task id="LOCAL-00031" summary="new sections">
-      <created>1704227308751</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1704227308751</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add server project">
-      <created>1704275262441</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1704275262441</updated>
-    </task>
-    <task id="LOCAL-00033" summary="finish  TEA project">
-      <created>1704295960275</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1704295960275</updated>
-    </task>
-    <task id="LOCAL-00034" summary="oculus 1 path">
-      <created>1704304085303</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1704304085303</updated>
-    </task>
-    <task id="LOCAL-00035" summary="clients sections add styles and js">
-      <created>1704318849750</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1704318849750</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Oculus add sections">
-      <created>1704328681877</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1704328681877</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add new slider and dots">
-      <created>1704386795606</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1704386795606</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add new marketing project">
-      <created>1704481408188</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1704481408188</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add new marketing section&#10;add travel project">
-      <created>1704534011210</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1704534011210</updated>
-    </task>
-    <task id="LOCAL-00040" summary="add new marketing section">
-      <created>1704552313567</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1704552313567</updated>
-    </task>
-    <task id="LOCAL-00041" summary="add new candler section/ add new landing project">
-      <created>1704639628535</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1704639628535</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update">
-      <created>1704640941517</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1704640941517</updated>
-    </task>
-    <task id="LOCAL-00043" summary="update">
-      <created>1704727677198</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1704727677198</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Candler add new sections">
-      <created>1704821223331</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1704821223331</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Candler add new sections and new project Panto">
-      <created>1704913426449</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1704913426449</updated>
-    </task>
-    <task id="LOCAL-00046" summary="update project">
-      <created>1705003598096</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1705003598096</updated>
-    </task>
-    <task id="LOCAL-00047" summary="update project">
-      <created>1705065722961</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1705065722962</updated>
-    </task>
-    <task id="LOCAL-00048" summary="finish candler project and start viking">
-      <created>1705088590563</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1705088590563</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Desire project add new sections">
-      <created>1705096249434</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1705096249434</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add new block and sections">
-      <created>1705180523555</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1705180523556</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add new project goCorona">
-      <created>1705268307414</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1705268307415</updated>
-    </task>
-    <task id="LOCAL-00052" summary="goCorona finish project">
-      <created>1705326823018</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1705326823018</updated>
-    </task>
-    <task id="LOCAL-00053" summary="update project">
-      <created>1705406523012</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1705406523012</updated>
-    </task>
-    <task id="LOCAL-00054" summary="update project di-gi">
-      <created>1705438692523</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1705438692525</updated>
-    </task>
-    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Candler add new sections and new project Panto" />
-    <MESSAGE value="finish candler project and start viking" />
-    <MESSAGE value="Desire project add new sections" />
-    <MESSAGE value="add new block and sections" />
-    <MESSAGE value="add new project goCorona" />
-    <MESSAGE value="goCorona finish project" />
-    <MESSAGE value="update project di-gi" />
-    <MESSAGE value="update gulp and webpack" />
-    <MESSAGE value="new projects" />
-    <MESSAGE value="update project" />
-    <MESSAGE value="update project Gericht" />
-    <MESSAGE value="update project Gericht and add new sections" />
-    <MESSAGE value="правки, была бага с header на мобилке" />
-    <MESSAGE value="правки,Gericht" />
-    <MESSAGE value="luxtrader add project" />
-    <MESSAGE value="sport store add project" />
-    <MESSAGE value="Gericht add new sections" />
-    <MESSAGE value="update" />
-    <MESSAGE value="new project and update old project" />
-    <MESSAGE value=" update old project" />
-    <MESSAGE value="pulse adaptive and new sections" />
-    <MESSAGE value="add popap" />
-    <MESSAGE value="add adapt value" />
-    <MESSAGE value="add ecocabins" />
-    <MESSAGE value="add growfy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add growfy" />
   </component>
 </project>
